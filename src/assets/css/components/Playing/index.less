@@ -1,0 +1,299 @@
+@import "../../Master/index";
+
+.Playing {
+  .Masterfun();
+  height: 100%;
+  .head {
+    position: fixed;
+    right: 0;
+    top: 2rem;
+    background-color: #fff;
+    z-index: 1500;
+    font-size: @fontSize12;
+    color: @Mastercolor;
+    border: .1rem solid @Mastercolor;
+    border-right-width: 0;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    padding: .2rem .6rem .2rem 1.2rem;
+  }
+  .content {
+    padding: 2rem;
+    .title {
+      font-size: 1.8rem;
+      color: @Master3;
+      font-weight: 600;
+      padding-bottom: 1rem;
+      border-top-width: 0;
+      border-bottom: .5rem solid #D8D8D8;
+      border-image: url('../../../img/Playing/border@2x.png');
+      border-image-slice: 10;
+    }
+    .body {
+      text-align: justify;
+      padding-top: 3rem;
+      overflow-x: hidden;
+      -webkit-overflow-scrolling: touch;
+      p {
+        padding-bottom: 3rem;
+        font-family: 'Times';
+        opacity: .3;
+      }
+      .font {
+        font-size: 18px;
+      }
+      .active {
+        color: #2eb9ff;
+        opacity: 1;
+        font-weight: 600;
+        //transition: all .25s;
+      }
+    }
+    .btn {
+      width: 100%;
+      margin-bottom: 7rem;
+    }
+  }
+  .PlayFoot {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 200;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-top: .1rem solid @MasterF2;
+    background-color: #fff;
+    .schedule {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 2rem;
+      font-size: .9rem;
+      color: @Master9;
+      .fasr-div {
+        width: 10%;
+      }
+      .nth-div {
+        width: 80%;
+        height: .1rem;
+        position: relative;
+        .fasr-p {
+          width: 100%;
+          height: .15rem;
+          background-color: @Mastercolor;
+          opacity: 0.17;
+          position: absolute;
+          top: .05rem;
+          z-index: 250;
+        }
+        .last-p {
+          width: 40%;
+          height: .15rem;
+          background-color: @Mastercolor;
+          position: absolute;
+          top: .05rem;
+          z-index: 300;
+        }
+        .schedule-span {
+          position: absolute;
+          left: 40%;
+          top: -.1rem;
+          z-index: 310;
+          border-radius: 100%;
+          width: .6rem;
+          height: .6rem;
+          margin-top: -.1rem;
+          margin-left: -.3rem;
+          background-color: @Mastercolor;
+          i {
+            position: absolute;
+            left: 40%;
+            top: -0.2rem;
+            z-index: 140;
+            border-radius: 100%;
+            width: 1rem;
+            height: 1rem;
+            margin-left: -.45rem;
+            background-color: @Mastercolor;
+            opacity: .17;
+          }
+        }
+      }
+      .last-div {
+        width: 10%;
+      }
+    }
+    .Features {
+      position: relative;
+      .fasr-div {
+        width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div {
+          width: 3.2rem;
+          height: 3.2rem;
+          border-radius: 100%;
+          font-size: .9rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: @Mastercolor;
+          border: .1rem solid @Mastercolor;
+        }
+        .nth-div {
+          width: 4rem;
+          height: 4rem;
+          margin: 0 3rem;
+          i {
+            color: @Mastercolor;
+          }
+          .icon-bofang {
+            position: relative;
+            left: .17rem;
+          }
+        }
+      }
+      .last-div {
+        position: absolute;
+        right: 3rem;
+        top: 1rem;
+        color: @Mastercolor;
+        i {
+          font-size: 1.855rem;
+        }
+      }
+    }
+  }
+}
+
+.black {
+  background-color: @Playbg;
+  .head {
+    background-color: @Playbg;
+    color: @PlayGrayRgba8;
+    border: .1rem solid @PlayGrayRgba8;
+  }
+  .content {
+    padding: 2rem;
+    .title {
+      color: @PlayGrayRgba8;
+      border-bottom: .5rem solid #D8D8D8;
+    }
+    .body {
+      p {
+        color: @PlayGrayRgba;
+      }
+      .active {
+        color: #fff;
+        opacity: .8;
+        //transition: all .25s;
+      }
+    }
+  }
+  .PlayFoot {
+    border-top: .1rem solid rgba(255, 255, 255, 0.2);
+    background-color: @Playbg;
+    .schedule {
+      color: @Master9;
+      .nth-div {
+        .fasr-p {
+          background-color: rgba(255, 255, 255, .08);
+        }
+        .last-p {
+          background-color: @PlayGrayRgba;
+        }
+        .schedule-span {
+          background-color: rgba(255, 255, 255, 1);
+          i {
+            background-color: rgba(255, 255, 255, .4);
+            opacity: .17;
+          }
+        }
+      }
+    }
+    .Features {
+      .fasr-div {
+        div {
+          color: @PlayGrayRgba;
+          border: .1rem solid @PlayGrayRgba;
+        }
+        .nth-div {
+          i {
+            color: @PlayGrayRgba;
+          }
+        }
+      }
+      .last-div {
+        color: @PlayGrayRgba;
+      }
+    }
+  }
+}
+
+.Coffee {
+  background-color: @PlayCoffeebg;
+  .head {
+    background-color: @PlayCoffeebg;
+    color: @PlayCoffee;
+    border: .1rem solid @PlayCoffee;
+  }
+  .content {
+    padding: 2rem;
+    .title {
+      color: @PlayCoffee;
+      border-bottom: .5rem solid #D8D8D8;
+    }
+    .body {
+      p {
+        color: @PlayCoffee;
+        opacity: .3;
+      }
+      .active {
+        color: @PlayCoffee;
+        opacity: 1;
+        //transition: all .25s;
+      }
+    }
+  }
+  .PlayFoot {
+    border-top: .1rem solid rgba(102, 68, 10, 0.1);
+    background-color: @PlayCoffeebg;
+    .schedule {
+      color: @PlayCoffee;
+      .nth-div {
+        .fasr-p {
+          background-color: rgba(102, 68, 10, .17);
+        }
+        .last-p {
+          background-color: @PlayCoffee;
+        }
+        .schedule-span {
+          background-color: @PlayCoffee;
+          i {
+            background-color: rgba(102, 68, 10, .17);
+            opacity: .17;
+          }
+        }
+      }
+    }
+    .Features {
+      .fasr-div {
+        div {
+          color: @PlayCoffee;
+          border: .1rem solid @PlayCoffee;
+        }
+        .nth-div {
+          i {
+            color: @PlayCoffee;
+          }
+        }
+      }
+      .last-div {
+        color: @PlayCoffee;
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.BooksList {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+.BooksList .body {
+  width: 90%;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #fff;
+  box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.06);
+}
+.BooksList .body .img {
+  width: 25%;
+}
+.BooksList .body .img img {
+  width: 100%;
+}
+.BooksList .body .text {
+  width: 75%;
+  margin-top: 1rem;
+  box-sizing: border-box;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+.BooksList .body .text .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.BooksList .body .text .title .name {
+  font-size: 1.5rem;
+  color: #2a2a33;
+  width: 70%;
+  text-align: left;
+}
+.BooksList .body .text .title .btn {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #FF8800;
+}
+.BooksList .body .text .title .btn i {
+  font-size: 1.1rem;
+  position: relative;
+  top: .1rem;
+}
+.BooksList .body .text .title .btn .already {
+  color: #c6c6cd;
+}
+.BooksList .body .text .title .btn .already i {
+  position: relative;
+  top: 0rem;
+}
+.BooksList .body .text .popup-text {
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.BooksList .body .text .popup-text span {
+  margin: .5rem 0;
+  display: inline-block;
+  background-color: #f7f7fa;
+  color: #5a5a66;
+  font-size: 1rem;
+  padding: .3rem .7rem;
+  border-radius: 2rem;
+}
+.BooksList .body .text .popup-text span:last-child {
+  margin-left: .5rem;
+}
+.BooksList .body .text .doc {
+  text-align: left;
+  color: #90999e;
+}

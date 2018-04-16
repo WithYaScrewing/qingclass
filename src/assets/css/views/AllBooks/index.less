@@ -1,0 +1,72 @@
+@import "../../Master/index";
+
+.AllBooks {
+  .Masterfun();
+  .content {
+    .booksbodyer {
+      margin-bottom: 7rem;
+      .head {
+        .left, .right {
+          width: 30%;
+          text-align: left;
+          i {
+          }
+        }
+        .right {
+          text-align: right;
+          i {
+          }
+        }
+      }
+      .body {
+        .books {
+          div {
+            position: relative;
+            width: 25%;
+            img {
+            }
+            .icon {
+              position: absolute;
+              right: -.8rem;
+              bottom: .8rem;
+              width: 1.4rem;
+              height: 1.4rem;
+              //box-sizing: border-box;
+              border: 1px solid #fff;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 100%;
+              i {
+                font-size: .7rem;
+                color: #fff;
+              }
+              img {
+                display: inline-block;
+                width: 1.1rem;
+                height: 1.1rem;
+              }
+            }
+            .active {
+              border-width: .1rem;
+              border-color: @Mastercolor;
+              background-color: @Mastercolor;
+            }
+          }
+        }
+        .bottom {
+        }
+      }
+    }
+  }
+  .foot {
+    width: 100%;
+    position: fixed;
+    bottom: 1rem;
+    left: 0;
+    .btn {
+      margin: auto;
+      width: 60%;
+    }
+  }
+}

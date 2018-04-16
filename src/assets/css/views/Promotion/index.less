@@ -1,0 +1,177 @@
+@import "../../Master/index";
+
+.Promotion {
+  .Masterfun();
+  background-color: @Mastercolor;
+  padding-bottom: 3rem;
+  .content {
+    width: 100%;
+    height: 100%;
+    background: url("../../../img/Promotion/bg.png") no-repeat;
+    background-size: 100%;
+    margin-bottom: 5rem;
+    .header {
+      .text-head {
+        padding-top: 4rem;
+        p {
+          color: #fff;
+          font-weight: 600;
+          text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+        }
+        p:first-child {
+          font-size: 3.2rem;
+        }
+        p:last-child {
+          margin-top: 1.5rem;
+          font-size: @fontSize15;
+        }
+      }
+      .RedEnvelope {
+        width: 90%;
+        height: 25.15rem;
+        margin: auto;
+        margin-top: 2em;
+        background: url("../../../img/Promotion/RedEnvelope.png") no-repeat;
+        background-size: 100%;
+        position: relative;
+        .img {
+          position: absolute;
+          left: 7rem;
+          top: 1.7rem;
+          width: 3rem;
+          height: 3.5rem;
+          background: url("../../../img/Promotion/Crown.png") no-repeat;
+          background-size: 100%;
+          img {
+            width: 2.2rem;
+            height: 2.2rem;
+            margin-top: .78rem;
+            margin-left: .26rem;
+            border-radius: 100%;
+          }
+        }
+        .text {
+          padding-top: 4rem;
+          font-size: @fontSize12;
+          color: @PlayCoffee;
+          font-weight: 600;
+          p {
+            line-height: 2rem;
+          }
+          .red {
+            margin-top: .5rem;
+            color: @Masterreds;
+            font-size: 4.4rem;
+            font-weight: 600;
+            text-shadow: 2px 2px 4px @Masterreds;
+          }
+        }
+        .btntest {
+          margin-top: 4.1rem;
+          color: #fff;
+          font-size: @fontSize15;
+          i {
+            color: #fff;
+            font-size: 1.4rem;
+          }
+        }
+        .btns {
+          width: 100%;
+          margin-top: 5rem;
+        }
+      }
+    }
+    .bodyer {
+      margin-top: 8rem;
+      padding-bottom: 5rem;
+      .head {
+        width: 93%;
+        height: 6rem;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(255, 255, 255, .2);
+        border-radius: .3rem;
+        font-size: @fontSize12;
+        color: #fff;
+        div {
+          i {
+            font-size: 1.1rem;
+          }
+        }
+        div:first-child {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 2.4rem;
+            height: 2.4rem;
+            border-radius: 100%;
+            margin-right: .3rem;
+          }
+        }
+      }
+      .body {
+        padding-top: 3rem;
+        width: 93%;
+        margin: auto;
+        margin-top: 1.5rem;
+        background-color: rgba(255, 255, 255, .2);
+        border-radius: .3rem;
+        font-size: @fontSize12;
+        color: #fff;
+        .title {
+          font-size: @fontSize15;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &:before {
+            content: '';
+            display: inline-block;
+            width: 9rem;
+            margin-right: 1rem;
+            height: .3rem;
+            background: url("../../../img/Promotion/Rectangle1.png") no-repeat;
+            background-size: 100%;
+          }
+          &:after {
+            content: '';
+            display: inline-block;
+            width: 9rem;
+            margin-left: 1rem;
+            height: .3rem;
+            background: url("../../../img/Promotion/Rectangle2.png") no-repeat;
+            background-size: 100%;
+          }
+        }
+        ul {
+          margin-top: 3rem;
+          padding-bottom: 2rem;
+          li {
+            box-sizing: border-box;
+            display: flex;
+            height: 4rem;
+            justify-content: space-around;
+            align-items: center;
+            div {
+              width: 25%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              .icon {
+                width: 2rem;
+                height: 2rem;
+                background-color: rgba(255, 255, 255, .2);
+                border-radius: 100%;
+              }
+              img {
+                width: 2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

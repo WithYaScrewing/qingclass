@@ -1,0 +1,58 @@
+@import "../../Master/index";
+
+.Area {
+  .Masterfun();
+  .Area-content {
+    text-align: left;
+    .Area-ul {
+      .Area-selected {
+        width: 86%;
+        margin: auto;
+        .Area-blue {
+          color: #2eb9ff;
+          font-size: @fontSize12;
+        }
+        .Area-blue, ul > li {
+          font-size: @fontSize18;
+          border-bottom: 1px solid @MasterF7;
+          height: 5rem;
+          line-height: 5rem;
+          padding-right: 1rem;
+        }
+        ul > li {
+          display: flex;
+          justify-content: space-between;
+          p:last-child {
+            font-size: @fontSize15;
+            color: @Master62;
+          }
+        }
+      }
+    }
+    .Area-nav {
+      font-size: @fontSize12;
+      width: 2rem;
+      height: 100%;
+      position: fixed;
+      right: 0;
+      top: 0;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding-left: .5rem;
+      padding-right: .3rem;
+      ul {
+        li {
+          padding: 0.2rem 0rem;
+          color: #2eb9ff;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

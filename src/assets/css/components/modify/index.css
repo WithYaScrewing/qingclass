@@ -1,0 +1,291 @@
+.modify {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3000;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+.modify .modify-bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100000;
+  animation: bg .5s;
+}
+.modify .modify-bg .modify-content {
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: ctn 1s;
+}
+.modify .modify-bg .modify-content .modify-body {
+  padding: 0 2rem;
+}
+.modify .modify-bg .modify-content .modify-body .first-div {
+  width: 100%;
+  /*line-height: 7rem;*/
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  border-bottom: 0.1rem solid #e6e6e6;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .div:first-child {
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  color: #5c6469;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .div:first-child i {
+  margin-right: .5rem;
+  font-size: 1.5rem;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .div:first-child .icon-zitidaxiao-icon {
+  font-size: 1.1rem;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .div:last-child {
+  padding: 2rem 0;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .div:last-child .span {
+  font-size: 1.2rem;
+  color: #2eb9ff;
+  border: 0.1rem solid #2eb9ff;
+  padding: .3rem 1rem;
+  border-radius: 5rem;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .Sizi {
+  width: 60%;
+  height: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .Sizi .min {
+  width: 10%;
+  font-size: 1.5rem;
+  padding: .5rem 0;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .Sizi .max {
+  width: 10%;
+  font-size: 2.4rem;
+  padding: 0rem 0;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg {
+  width: 80%;
+  height: 4rem;
+  position: relative;
+  margin: 0 .5rem;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .ruler {
+  width: 100%;
+  height: 1rem;
+  position: relative;
+  top: 0.2rem;
+  left: 0;
+  border-bottom: .1rem solid #ccc;
+  display: flex;
+  justify-content: center;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .spans {
+  background-color: #2eb9ff;
+  position: absolute;
+  top: .5rem;
+  z-index: 4000;
+  left: 20%;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: -0.75rem;
+  box-sizing: border-box;
+  border: .5rem solid #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 8px 0 rgba(46, 185, 255, 0.12);
+}
+.modify .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .rulers {
+  width: 100%;
+  height: 1rem;
+  position: relative;
+  top: 0rem;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .rulers .cm {
+  width: 25%;
+  height: .8rem;
+  border-left: 1px solid #ccc;
+  margin-top: -0.2rem;
+  position: relative;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .rulers .cm i {
+  position: absolute;
+  left: -1rem;
+  display: inline-block;
+  width: 3rem;
+  height: 1rem;
+  background-color: transparent;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .rulers .cm:last-child {
+  border-right: 1px solid #ccc;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .rulers .cm:nth-child(2) {
+  height: 1rem;
+  border-left: 2px solid #2eb9ff;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .colornth {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .colornth .icons {
+  width: 4rem;
+  height: 2rem;
+  margin: 0 1rem;
+  border-radius: .2rem;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .colornth .icons i,
+.modify .modify-bg .modify-content .modify-body .first-div .colornth .icons .icon-yejianmoshi {
+  color: #fff;
+  font-size: 1rem;
+  display: inline-block;
+  position: relative;
+  top: -0.5rem;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .colornth .iconscolor1 {
+  background-color: #fff;
+  border: .1rem solid #111;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .colornth .iconscolor2 {
+  background-color: #f7f1df;
+  border: .1rem solid #f7f1df;
+}
+.modify .modify-bg .modify-content .modify-body .first-div .colornth .iconscolor3 {
+  background-color: #5e5e6b;
+  border: .1rem solid #5e5e6b;
+}
+@keyframes bg {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes ctn {
+  0% {
+    transform: translate(0%, 80%);
+  }
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+.blacks .modify-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.blacks .modify-bg .modify-content {
+  background-color: #25252b;
+}
+.blacks .modify-bg .modify-content .modify-body .first-div {
+  border-bottom: 0.1rem solid rgba(230, 230, 230, 0.2);
+}
+.blacks .modify-bg .modify-content .modify-body .first-div .div:first-child {
+  color: #ffffff;
+}
+.blacks .modify-bg .modify-content .modify-body .first-div .div:last-child .span {
+  color: #ffffff;
+  border: 0.1rem solid #ffffff;
+}
+.blacks .modify-bg .modify-content .modify-body .first-div .Sizi {
+  color: rgba(255, 255, 255, 0.8);
+}
+.blacks .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .ruler {
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.8);
+}
+.blacks .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .spans {
+  background-color: #25252b;
+  border: 0.5rem solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 8px 0 rgba(94, 94, 107, 0.12);
+}
+.blacks .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .rulers {
+  width: 100%;
+}
+.blacks .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .rulers .cm {
+  border-left: 1px solid rgba(255, 255, 255, 0.8);
+}
+.blacks .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .rulers .cm:last-child {
+  border-right: 1px solid rgba(255, 255, 255, 0.8);
+}
+.blacks .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .rulers .cm:nth-child(2) {
+  border-left: 2px solid rgba(255, 255, 255, 0.8);
+}
+.blacks .modify-bg .modify-content .modify-body .first-div .colornth .iconscolor1 {
+  background-color: #fff;
+  border: .1rem solid #fff;
+}
+.blacks .modify-bg .modify-content .modify-body .first-div .colornth .iconscolor2 {
+  background-color: #f7f1df;
+  border: 0.1rem solid rgba(255, 255, 255, 0.8);
+}
+.blacks .modify-bg .modify-content .modify-body .first-div .colornth .iconscolor3 {
+  background-color: #5e5e6b;
+  border: 0.1rem solid rgba(255, 255, 255, 0.8);
+}
+.Coffees .modify-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.Coffees .modify-bg .modify-content {
+  background-color: #f7f1df;
+}
+.Coffees .modify-bg .modify-content .modify-body .first-div {
+  border-bottom: 0.1rem solid rgba(102, 68, 10, 0.1);
+}
+.Coffees .modify-bg .modify-content .modify-body .first-div .div:first-child {
+  color: #66440a;
+}
+.Coffees .modify-bg .modify-content .modify-body .first-div .div:last-child .span {
+  color: #66440a;
+  border: 0.1rem solid #66440a;
+}
+.Coffees .modify-bg .modify-content .modify-body .first-div .Sizi {
+  color: #66440a;
+}
+.Coffees .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .ruler {
+  border-bottom: 0.1rem solid #66440a;
+}
+.Coffees .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .spans {
+  background-color: #fff;
+  border: 0.5rem solid #66440a;
+  box-shadow: 0 2px 8px 0 rgba(102, 68, 10, 0.12);
+}
+.Coffees .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .rulers {
+  width: 100%;
+}
+.Coffees .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .rulers .cm {
+  border-left: 1px solid #66440a;
+}
+.Coffees .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .rulers .cm:last-child {
+  border-right: 1px solid #66440a;
+}
+.Coffees .modify-bg .modify-content .modify-body .first-div .Sizi .Sizi-bg .rulers .cm:nth-child(2) {
+  border-left: 2px solid #66440a;
+}
+.Coffees .modify-bg .modify-content .modify-body .first-div .colornth .iconscolor1 {
+  background-color: #fff;
+  border: .1rem solid #fff;
+}
+.Coffees .modify-bg .modify-content .modify-body .first-div .colornth .iconscolor2 {
+  background-color: #f7f1df;
+  border: 0.1rem solid #66440a;
+}
+.Coffees .modify-bg .modify-content .modify-body .first-div .colornth .iconscolor3 {
+  background-color: #5e5e6b;
+  border: .1rem solid #5e5e6b;
+}

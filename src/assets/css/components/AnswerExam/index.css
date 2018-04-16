@@ -1,0 +1,36 @@
+.AnswerExam .title {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.AnswerExam .title img {
+  width: 6rem;
+  height: 6rem;
+}
+.AnswerExam .closed {
+  position: absolute;
+  top: .3rem;
+  right: .6rem;
+}
+.AnswerExam .closed i {
+  font-size: 1.3rem;
+  color: #c2c9cc;
+}
+.AnswerExam .text-title {
+  font-size: 1.8rem;
+  color: #2a2a33;
+}
+.AnswerExam .doc {
+  font-size: 1.5rem;
+  color: #90999e;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.AnswerExam .btn {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

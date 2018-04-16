@@ -1,0 +1,40 @@
+.HomeVip {
+  width: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  height: 100%;
+}
+.HomeVip .bodyer {
+  margin-bottom: 6rem;
+}
+.HomeVip .footer {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1500;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.04);
+  padding: .8rem 0 .5rem 0;
+}
+.HomeVip .footer div {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  color: #c6c6cd;
+  box-sizing: border-box;
+}
+.HomeVip .footer div i {
+  font-size: 2rem;
+}
+.HomeVip .footer div span {
+  font-size: 1rem;
+}
+.HomeVip .footer .active {
+  color: #2eb9ff;
+}

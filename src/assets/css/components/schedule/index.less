@@ -1,0 +1,266 @@
+@import "../../Master/index";
+
+@import "../../Master/index";
+
+.Reading {
+  .Calendar {
+    background-color: #fff;
+    padding-bottom: 1rem;
+    .head {
+      padding: 3rem 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .left, .right {
+        .icon-rili {
+          display: inline-block;
+          transform: rotate(-180deg);
+          -ms-transform: rotate(-180deg);
+          -moz-transform: rotate(-180deg);
+          -webkit-transform: rotate(-180deg);
+          -o-transform: rotate(-180deg);
+        }
+        .iconfont {
+          color: @MasterC;
+        }
+      }
+      .right {
+      }
+    }
+    .title, .body {
+      width: 100%;
+      padding: 0 1.5rem;
+      box-sizing: border-box;
+      font-size: @fontSize12;
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        li {
+          font-size: @fontSize15;
+          color: @Master5A;
+          width: 14.28%;
+          height: 4rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 500;
+          .other-month {
+            color: #fff;
+          }
+          .class-c, .class-d, .active {
+            font-size: 1.2rem;
+            width: 2.5rem;
+            height: 2.5rem;
+            display: flex;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            background-color: #C2C9CC;
+            border-radius: 50%;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            z-index: 20;
+            /*box-shadow: 0 0 .6rem #f0f0f0;*/
+          }
+
+          .class-b, .class-a {
+            font-size: 1.2rem;
+            background-color: #42CB5D;
+            width: 2.5rem;
+            height: 2.5rem;
+            display: flex;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            border-radius: 50%;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            z-index: 20;
+            /*box-shadow: 0 0 .6rem #f0f0f0;*/
+          }
+
+          .class-a {
+            background-color: #C2C9CC;
+          }
+          .active {
+            width: 2.4rem;
+            height: 2.4rem;
+            line-height: 2.4rem;
+            background-color: @Mastercolor;
+            &::after {
+              font-size: 1.2rem;
+              content: '';
+              display: inline-block;
+              width: 3rem;
+              height: 3rem;
+              position: absolute;
+              left: -.25rem;
+              top: -.25rem;
+              background-color: rgba(46, 185, 255, 0.12);
+              border-radius: 50%;
+            }
+          }
+
+          .class-c {
+            //background: url("../../../img/PunchCalendar/Group3.png") no-repeat;
+            background-size: 100%;
+          }
+
+          .class-d {
+            //background: url("../../../img/PunchCalendar/Group4.png") no-repeat;
+            background-size: 100%;
+            padding: .2rem;
+          }
+
+          .class-e {
+            width: 2.5rem;
+            height: 2.5rem;
+            line-height: 2.5rem;
+            background-color: #F78E1B;
+          }
+
+          .class-a::after, .class-d::after, .class-e::after, .class-c::after {
+            font-size: 1.2rem;
+            content: '';
+            display: inline-block;
+            width: 3rem;
+            height: 3rem;
+            position: absolute;
+            left: -.25rem;
+            top: -.25rem;
+            background-color: rgba(194, 201, 204, 0.12);
+            border-radius: 50%;
+          }
+
+          .class-e::after {
+            background-color: rgba(247, 142, 27, 0.12);
+          }
+
+          .class-b::after {
+            content: '';
+            display: inline-block;
+            width: 3rem;
+            height: 3rem;
+            position: absolute;
+            left: -.25rem;
+            top: -.25rem;
+            background-color: rgba(66, 203, 93, 0.12);
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+    .body {
+      min-height: 10rem;
+      ul {
+        li {
+          height: 5rem;
+          .content {
+            display: inline-flex;
+            //justify-content: center;
+            //align-items: center;
+            flex-direction: column;
+            .icon {
+              display: inline-block;
+              margin-top: -.3rem;
+              i {
+                font-size: 1rem;
+                color: @Mastergreen;
+                margin-top: -.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    .title {
+      margin-top: -1.5rem;
+    }
+    .footr {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 4rem;
+      div {
+        width: 33.33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: @Master9;
+        span {
+          width: 1rem;
+          height: 1rem;
+          line-height: 3rem;
+          border-radius: 100%;
+          margin-right: .5rem;
+          background-color: @Mastercolor;
+        }
+      }
+      .Learn {
+        background-color: @MasterOrange;
+        position: relative;
+        z-index: 15;
+        &::before {
+          content: '';
+          display: inline-block;
+          width: 1.3rem;
+          height: 1.3rem;
+          position: absolute;
+          left: -0.12rem;
+          top: -0.12rem;
+          z-index: 10;
+          background-color: rgba(255, 136, 0, .12);
+          border-radius: 50%;
+        }
+      }
+      .not {
+        background-color: #C2C9CC;
+        position: relative;
+        z-index: 15;
+        &::before {
+          content: '';
+          display: inline-block;
+          width: 1.3rem;
+          height: 1.3rem;
+          position: absolute;
+          left: -0.12rem;
+          top: -0.12rem;
+          z-index: 10;
+          background-color: rgba(194, 201, 204, .12);
+          border-radius: 50%;
+        }
+      }
+      .ids {
+        //background: url("../../../img/PunchCalendar/Group3.png") no-repeat;
+        background-color: @Mastergreen;
+        background-size: 100%;
+        position: relative;
+        z-index: 15;
+        &::before {
+          content: '';
+          display: inline-block;
+          width: 1.3rem;
+          height: 1.3rem;
+          position: absolute;
+          left: -0.12rem;
+          top: -0.12rem;
+          z-index: 10;
+          background-color: rgba(194, 201, 204, .12);
+          border-radius: 50%;
+        }
+      }
+      .daqia {
+        i {
+          color: @Mastergreen;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+

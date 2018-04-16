@@ -1,0 +1,277 @@
+.Playing {
+  width: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  height: 100%;
+}
+.Playing .head {
+  position: fixed;
+  right: 0;
+  top: 2rem;
+  background-color: #fff;
+  z-index: 1500;
+  font-size: 1.2rem;
+  color: #2eb9ff;
+  border: 0.1rem solid #2eb9ff;
+  border-right-width: 0;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  padding: .2rem .6rem .2rem 1.2rem;
+}
+.Playing .content {
+  padding: 2rem;
+}
+.Playing .content .title {
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  border-top-width: 0;
+  border-bottom: .5rem solid #D8D8D8;
+  border-image: url('../../../img/Playing/border@2x.png');
+  border-image-slice: 10;
+}
+.Playing .content .body {
+  text-align: justify;
+  padding-top: 3rem;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.Playing .content .body p {
+  padding-bottom: 3rem;
+  font-family: 'Times';
+  opacity: .3;
+}
+.Playing .content .body .font {
+  font-size: 18px;
+}
+.Playing .content .body .active {
+  color: #2eb9ff;
+  opacity: 1;
+  font-weight: 600;
+}
+.Playing .content .btn {
+  width: 100%;
+  margin-bottom: 7rem;
+}
+.Playing .PlayFoot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 200;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border-top: 0.1rem solid #f2f2f2;
+  background-color: #fff;
+}
+.Playing .PlayFoot .schedule {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem;
+  font-size: .9rem;
+  color: #999;
+}
+.Playing .PlayFoot .schedule .fasr-div {
+  width: 10%;
+}
+.Playing .PlayFoot .schedule .nth-div {
+  width: 80%;
+  height: .1rem;
+  position: relative;
+}
+.Playing .PlayFoot .schedule .nth-div .fasr-p {
+  width: 100%;
+  height: .15rem;
+  background-color: #2eb9ff;
+  opacity: 0.17;
+  position: absolute;
+  top: .05rem;
+  z-index: 250;
+}
+.Playing .PlayFoot .schedule .nth-div .last-p {
+  width: 40%;
+  height: .15rem;
+  background-color: #2eb9ff;
+  position: absolute;
+  top: .05rem;
+  z-index: 300;
+}
+.Playing .PlayFoot .schedule .nth-div .schedule-span {
+  position: absolute;
+  left: 40%;
+  top: -0.1rem;
+  z-index: 310;
+  border-radius: 100%;
+  width: .6rem;
+  height: .6rem;
+  margin-top: -0.1rem;
+  margin-left: -0.3rem;
+  background-color: #2eb9ff;
+}
+.Playing .PlayFoot .schedule .nth-div .schedule-span i {
+  position: absolute;
+  left: 40%;
+  top: -0.2rem;
+  z-index: 140;
+  border-radius: 100%;
+  width: 1rem;
+  height: 1rem;
+  margin-left: -0.45rem;
+  background-color: #2eb9ff;
+  opacity: .17;
+}
+.Playing .PlayFoot .schedule .last-div {
+  width: 10%;
+}
+.Playing .PlayFoot .Features {
+  position: relative;
+}
+.Playing .PlayFoot .Features .fasr-div {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Playing .PlayFoot .Features .fasr-div div {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 100%;
+  font-size: .9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2eb9ff;
+  border: 0.1rem solid #2eb9ff;
+}
+.Playing .PlayFoot .Features .fasr-div .nth-div {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 3rem;
+}
+.Playing .PlayFoot .Features .fasr-div .nth-div i {
+  color: #2eb9ff;
+}
+.Playing .PlayFoot .Features .fasr-div .nth-div .icon-bofang {
+  position: relative;
+  left: .17rem;
+}
+.Playing .PlayFoot .Features .last-div {
+  position: absolute;
+  right: 3rem;
+  top: 1rem;
+  color: #2eb9ff;
+}
+.Playing .PlayFoot .Features .last-div i {
+  font-size: 1.855rem;
+}
+.black {
+  background-color: #25252b;
+}
+.black .head {
+  background-color: #25252b;
+  color: rgba(255, 255, 255, 0.8);
+  border: 0.1rem solid rgba(255, 255, 255, 0.8);
+}
+.black .content {
+  padding: 2rem;
+}
+.black .content .title {
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: .5rem solid #D8D8D8;
+}
+.black .content .body p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.black .content .body .active {
+  color: #fff;
+  opacity: .8;
+}
+.black .PlayFoot {
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+  background-color: #25252b;
+}
+.black .PlayFoot .schedule {
+  color: #999;
+}
+.black .PlayFoot .schedule .nth-div .fasr-p {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+.black .PlayFoot .schedule .nth-div .last-p {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.black .PlayFoot .schedule .nth-div .schedule-span {
+  background-color: #ffffff;
+}
+.black .PlayFoot .schedule .nth-div .schedule-span i {
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: .17;
+}
+.black .PlayFoot .Features .fasr-div div {
+  color: rgba(255, 255, 255, 0.5);
+  border: 0.1rem solid rgba(255, 255, 255, 0.5);
+}
+.black .PlayFoot .Features .fasr-div .nth-div i {
+  color: rgba(255, 255, 255, 0.5);
+}
+.black .PlayFoot .Features .last-div {
+  color: rgba(255, 255, 255, 0.5);
+}
+.Coffee {
+  background-color: #f7f1df;
+}
+.Coffee .head {
+  background-color: #f7f1df;
+  color: #66440a;
+  border: 0.1rem solid #66440a;
+}
+.Coffee .content {
+  padding: 2rem;
+}
+.Coffee .content .title {
+  color: #66440a;
+  border-bottom: .5rem solid #D8D8D8;
+}
+.Coffee .content .body p {
+  color: #66440a;
+  opacity: .3;
+}
+.Coffee .content .body .active {
+  color: #66440a;
+  opacity: 1;
+}
+.Coffee .PlayFoot {
+  border-top: 0.1rem solid rgba(102, 68, 10, 0.1);
+  background-color: #f7f1df;
+}
+.Coffee .PlayFoot .schedule {
+  color: #66440a;
+}
+.Coffee .PlayFoot .schedule .nth-div .fasr-p {
+  background-color: rgba(102, 68, 10, 0.17);
+}
+.Coffee .PlayFoot .schedule .nth-div .last-p {
+  background-color: #66440a;
+}
+.Coffee .PlayFoot .schedule .nth-div .schedule-span {
+  background-color: #66440a;
+}
+.Coffee .PlayFoot .schedule .nth-div .schedule-span i {
+  background-color: rgba(102, 68, 10, 0.17);
+  opacity: .17;
+}
+.Coffee .PlayFoot .Features .fasr-div div {
+  color: #66440a;
+  border: 0.1rem solid #66440a;
+}
+.Coffee .PlayFoot .Features .fasr-div .nth-div i {
+  color: #66440a;
+}
+.Coffee .PlayFoot .Features .last-div {
+  color: #66440a;
+}

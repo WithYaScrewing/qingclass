@@ -1,0 +1,154 @@
+.Book {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+.Book .content {
+  width: 100%;
+}
+.Book .content .header {
+  width: 95%;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 3rem;
+}
+.Book .content .header .img {
+  width: 40%;
+}
+.Book .content .header .img img {
+  width: 100%;
+  background: url("../../../../img/BookShelf/chang1.png") no-repeat;
+  background-size: 100%;
+}
+.Book .content .header .text {
+  width: 60%;
+  text-align: left;
+  margin-left: 2rem;
+}
+.Book .content .header .text .title {
+  color: #333;
+  font-size: 1.8rem;
+}
+.Book .content .header .text .doc {
+  font-size: 1.2rem;
+  color: #999;
+  margin-top: .5rem;
+}
+.Books .content {
+  width: 100%;
+}
+.Books .content .header {
+  width: 95%;
+  margin: 1rem auto;
+  background-color: #ffffff;
+  box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 3rem;
+}
+.Books .content .header .img {
+  width: 40%;
+  min-height: 12.55rem;
+  background-color: #fafafa;
+}
+.Books .content .header .img img {
+  width: 100%;
+}
+.Books .content .header .text {
+  width: 60%;
+  text-align: left;
+  margin-left: 2rem;
+}
+.Books .content .header .text .title {
+  max-width: 16rem;
+  min-height: 1.8rem;
+  color: transparent;
+  background-color: #fafafa;
+  font-size: 1.8rem;
+}
+.Books .content .header .text .doc {
+  font-size: 1.2rem;
+  color: transparent;
+  background-color: #fafafa;
+  margin-top: .5rem;
+}
+.Books .content .header .text .doc1 {
+  max-width: 7.3rem;
+  min-height: 1rem;
+}
+.Books .content .header .text .doc2 {
+  max-width: 10.3rem;
+  max-height: 1.2rem;
+}
+.Books .content .header .text .btn {
+  margin-top: 1rem;
+  max-width: 16rem;
+  min-height: 3rem;
+  background-color: #fafafa;
+}
+.Books .content .header .text .btn div {
+  display: none;
+}
+.Books .content .booksbodyer {
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.Books .content .booksbodyer .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Books .content .booksbodyer .head .left,
+.Books .content .booksbodyer .head .right {
+  font-size: 1.2rem;
+  color: transparent;
+}
+.Books .content .booksbodyer .head .left i,
+.Books .content .booksbodyer .head .right i {
+  font-size: 1.2rem;
+}
+.Books .content .booksbodyer .head .right {
+  font-size: 1.2rem;
+  color: transparent;
+}
+.Books .content .booksbodyer .head .right i {
+  position: relative;
+  left: -0.3rem;
+  font-size: 1rem;
+}
+.Books .content .booksbodyer .body {
+  box-sizing: border-box;
+  padding: 2rem 1.2rem 1rem 1.2rem;
+}
+.Books .content .booksbodyer .body .books {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 0 2rem;
+}
+.Books .content .booksbodyer .body .books div {
+  width: 25%;
+  min-height: 9rem;
+  background-color: #fafafa;
+}
+.Books .content .booksbodyer .body .books div img {
+  width: 100%;
+  border-color: transparent;
+}
+.Books .content .booksbodyer .body .bottom {
+  width: 100%;
+  height: .9rem;
+  background-color: #ffffff;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.06);
+}

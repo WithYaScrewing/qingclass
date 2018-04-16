@@ -1,0 +1,159 @@
+.Mine {
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+.Mine .mine {
+  width: 100%;
+  font-size: 1.7rem;
+  margin-bottom: 7rem;
+}
+.Mine .mine .mine-head {
+  width: 100%;
+  background-color: #ddd;
+  background-image: linear-gradient(to bottom, #55c6ff, #19a6ed);
+  color: #fff;
+  position: relative;
+}
+.Mine .mine .mine-head .bg-1 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.Mine .mine .mine-head .img {
+  padding-top: 1.6rem;
+}
+.Mine .mine .mine-head .img img {
+  width: 6rem;
+  min-height: 6rem;
+  border-radius: 100%;
+  background: url('../../../../img/BookShelf/zhang1.png') no-repeat;
+  background-size: 100%;
+  border: .2rem solid #fff;
+}
+.Mine .mine .mine-head .name {
+  font-size: 1.8rem;
+}
+.Mine .mine .mine-head .state {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  align-items: center;
+}
+.Mine .mine .mine-head .state div {
+  width: 33.33%;
+  font-size: 1.5rem;
+}
+.Mine .mine .mine-head .state div p:first-child {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: .5rem;
+}
+.Mine .mine .mine-head .state div p:last-child {
+  font-size: 2rem;
+  color: #fff;
+}
+.Mine .mine .mine-head .state div:nth-child(2) {
+  border-left: 0.1rem solid rgba(255, 255, 255, 0.3);
+  border-right: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+.Mine .mine .mine-content {
+  width: 100%;
+}
+.Mine .mine .mine-content ul {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+.Mine .mine .mine-content ul li {
+  width: 95%;
+  margin: 1rem auto;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: .4rem;
+  box-shadow: 0 0.2rem 1.5rem 0 rgba(0, 0, 0, 0.04);
+}
+.Mine .mine .mine-content ul li div:first-child {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Mine .mine .mine-content ul li div:first-child img {
+  width: 1.8rem;
+  margin-right: .5rem;
+}
+.Mine .mine .mine-content ul li div:first-child span {
+  position: relative;
+}
+.Mine .mine .mine-content ul li div:first-child span i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: .5rem;
+  height: .5rem;
+  border-radius: 100%;
+  background-color: #fa5a5a;
+}
+.Mine .mine .mine-content ul li div:last-child {
+  margin-right: 1.5rem;
+}
+.Mine .mine .mine-content ul li div:last-child i {
+  font-size: 1rem;
+  color: #c2c9cc;
+}
+.Mine .mine .mine-newcontent {
+  background-color: #fafafa;
+}
+.Mine .mine .mine-newcontent .mine-newcontent-ul {
+  background-color: #fff;
+  padding: 0 2rem;
+  margin-bottom: .8rem;
+}
+.Mine .mine .mine-newcontent .mine-newcontent-ul .mine-newcontent-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: .03rem solid #e6e6e6;
+  padding: 1.5rem 0;
+}
+.Mine .mine .mine-newcontent .mine-newcontent-ul .mine-newcontent-li div:first-child {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Mine .mine .mine-newcontent .mine-newcontent-ul .mine-newcontent-li div:first-child img {
+  width: 1.8rem;
+  margin-right: .5rem;
+}
+.Mine .mine .mine-newcontent .mine-newcontent-ul .mine-newcontent-li div:first-child span {
+  position: relative;
+}
+.Mine .mine .mine-newcontent .mine-newcontent-ul .mine-newcontent-li div:first-child span i {
+  position: absolute;
+  top: -0.1rem;
+  right: -0.5rem;
+  width: .5rem;
+  height: .5rem;
+  border-radius: 100%;
+  background-color: #fa5a5a;
+}
+.Mine .mine .mine-newcontent .mine-newcontent-ul .mine-newcontent-li div:last-child i {
+  font-size: 1rem;
+  color: #c2c9cc;
+}
+.Mine .mine .mine-newcontent .mine-newcontent-ul li:last-child {
+  border-bottom-width: 0;
+}

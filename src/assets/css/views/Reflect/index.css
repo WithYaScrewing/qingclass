@@ -1,0 +1,47 @@
+.Reflect {
+  width: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  height: 100%;
+}
+.Reflect .content {
+  margin-top: 3rem;
+}
+.Reflect .content .title {
+  color: #2eb9ff;
+  font-size: 1.8rem;
+}
+.Reflect .content .dosc {
+  margin-top: .9rem;
+  color: #90999e;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+.Reflect .content .input-tel {
+  padding: 0 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+}
+.Reflect .content .input-tel input[type=tel] {
+  width: 80%;
+  font-size: 1.8rem;
+  padding: 0.7rem 0rem;
+  color: #c4c9cc;
+  text-align: center;
+  border: transparent;
+  border-radius: 0;
+  border-bottom: 1px solid #dfe4e6;
+  caret-color: #2eb9ff;
+  -webkit-caret-color: #2eb9ff;
+}
+.Reflect .content .input-tel input[type=tel]:focus {
+  color: #353f45;
+}
+.Reflect .content .btns {
+  margin-top: 4rem;
+}

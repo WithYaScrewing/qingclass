@@ -1,0 +1,44 @@
+@import "../../Master/index";
+
+.Reflect {
+  .Masterfun();
+  height: 100%;
+  .content {
+    margin-top: 3rem;
+    .title {
+      color: @Mastercolor;
+      font-size: @fontSize18;
+    }
+    .dosc {
+      margin-top: .9rem;
+      color: @Master62;
+      font-size: @fontSize12;
+      margin-bottom: 3rem;
+    }
+    .input-tel {
+      padding: 0 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 6rem;
+      input[type=tel] {
+        width: 80%;
+        font-size: 1.8rem;
+        padding: 0.7rem 0rem;
+        color: @MasterC4;
+        text-align: center;
+        border: transparent;
+        border-radius: 0;
+        border-bottom: 1px solid @Master92;
+        caret-color: @Mastercolor;
+        -webkit-caret-color: @Mastercolor;
+        &:focus {
+          color: @Master27;
+        }
+      }
+    }
+    .btns{
+      margin-top: 4rem;
+    }
+  }
+}

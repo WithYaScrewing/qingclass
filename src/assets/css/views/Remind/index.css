@@ -1,0 +1,54 @@
+.Remind {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  padding-top: 1rem;
+}
+.Remind .Description-content {
+  width: 95%;
+  margin: auto;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0px 2rem 0 rgba(0, 0, 0, 0.04);
+  margin-bottom: 1rem;
+}
+.Remind .Description-content div:first-child {
+  width: 80%;
+  text-align: left;
+  margin-left: 2rem;
+}
+.Remind .Description-content div:first-child p {
+  line-height: 2rem;
+  padding-top: .4rem;
+}
+.Remind .Description-content div:first-child p:last-child {
+  font-size: 1rem;
+  color: #a2a0a8;
+}
+.Remind .Description-content div:first-child .Description-content-p {
+  font-size: 1.8rem;
+  color: #2d283d;
+}
+.Remind .Description-content div:last-child {
+  width: 20%;
+  text-align: right;
+  margin-right: 0rem;
+  font-size: 1.8rem;
+  color: #F78E1B;
+  line-height: 6rem;
+}
+.Remind .Description-content div:last-child i {
+  font-size: 1rem;
+  color: #c2c9cc;
+  margin-left: 1rem;
+}
+.Remind .Description-content div:last-child .Description-content-p1 {
+  margin-right: 2rem;
+  margin-top: .2rem;
+}

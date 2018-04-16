@@ -1,0 +1,114 @@
+.wallet {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+.wallet .head {
+  width: 100%;
+  height: 34%;
+  background: linear-gradient(to bottom, #55c6ff, #19a6ed);
+}
+.wallet .head .bg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../img/wallet/invalid-name.svg");
+  background-repeat: no-repeat;
+  background-position: 0px -50px;
+  background-size: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.wallet .head .bg div {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.2rem;
+}
+.wallet .head .bg div:first-child {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+.wallet .head .bg div:first-child i {
+  font-size: 1.1rem;
+  margin-right: .2rem;
+}
+.wallet .head .bg div:last-child p:first-child,
+.wallet .head .bg div:last-child p:last-child {
+  line-height: 4rem;
+}
+.wallet .head .bg div:last-child p:nth-child(2) {
+  font-size: 5rem;
+  color: #fff;
+}
+.wallet .head .bg div:last-child p:nth-child(2) span {
+  font-size: 2.5rem;
+}
+.wallet .head .bg div:last-child p:nth-child(2) i {
+  position: relative;
+  height: 100%;
+  top: -1.8rem;
+  right: 0;
+  font-size: 1.8rem;
+  font-style: normal;
+}
+.wallet .Wallet-content {
+  width: 100%;
+  padding-top: .5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.wallet .Wallet-content li {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  height: 8rem;
+  line-height: 8rem;
+  margin-top: 1rem;
+  background-color: #fff;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.04);
+}
+.wallet .Wallet-content li div {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  color: #5a5a66;
+}
+.wallet .Wallet-content li div .img1 {
+  display: inline-block;
+  width: 2.1rem;
+  height: 1.75rem;
+  margin-top: 27.5%;
+  margin-right: .5rem;
+}
+.wallet .Wallet-content li div .img2 {
+  display: inline;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 31.5%;
+  margin-right: .5rem;
+}
+.wallet .Wallet-content li div .fonsie {
+  font-size: 1.2rem;
+  color: #ff8800;
+}
+.wallet .Wallet-content li div .icon-fanxianjilu {
+  font-size: 2.3rem;
+  color: #2eb9ff;
+  margin-right: .3rem;
+}
+.wallet .Wallet-content li div .icon-jinru {
+  font-size: 1.2rem;
+  color: #c2c9cc;
+  margin-top: .1rem;
+}

@@ -1,0 +1,54 @@
+.Detailed {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+.Detailed .Review-body {
+  font-size: 1.8rem;
+  color: #2a2a33;
+  text-align: left;
+}
+.Detailed .Review-body ul {
+  width: 100%;
+}
+.Detailed .Review-body ul li {
+  margin: auto;
+  width: 95%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 7rem;
+  box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Detailed .Review-body ul li div:first-child {
+  width: 75%;
+  text-align: left;
+  margin-left: 1rem;
+}
+.Detailed .Review-body ul li div:first-child p:last-child {
+  font-size: 1.4rem;
+  color: #90999e;
+}
+.Detailed .Review-body ul li div:last-child {
+  width: 35%;
+  text-align: right;
+  margin-right: 1.8rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.Detailed .Detailed-img {
+  margin-top: 50%;
+  color: #90999e;
+  font-size: 1.8rem;
+}
+.Detailed .Detailed-img img {
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 2rem;
+}

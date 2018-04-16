@@ -1,0 +1,39 @@
+.BuyVip {
+  width: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  height: 100%;
+}
+.BuyVip .BuyFooter {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 300;
+  background-color: #fff;
+  width: 100%;
+  border-top: 1px solid #e6e6e6;
+}
+.BuyVip .BuyFooter ul {
+  padding: 0 2rem;
+}
+.BuyVip .BuyFooter ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  padding: .5rem 0;
+}
+.BuyVip .BuyFooter ul li div span {
+  font-size: 1.5rem;
+  color: #2a2a33;
+}
+.BuyVip .BuyFooter ul li div s {
+  font-size: 1.2rem;
+  color: #90999e;
+}
+.BuyVip .content {
+  padding-bottom: 10rem;
+}

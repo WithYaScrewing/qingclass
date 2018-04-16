@@ -1,0 +1,81 @@
+.Chapter {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  padding-bottom: 2rem;
+}
+.Chapter .head {
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 95%;
+  background-color: #ffffff;
+  box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.06);
+  margin: 1rem auto;
+}
+.Chapter .head .body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Chapter .head .body .img {
+  width: 35%;
+}
+.Chapter .head .body .img img {
+  width: 90%;
+}
+.Chapter .head .body .text {
+  width: 65%;
+  margin-left: 1rem;
+  text-align: left;
+}
+.Chapter .head .body .text .name {
+  font-size: 1.8rem;
+  color: #333;
+}
+.Chapter .head .body .text .span span {
+  margin: .5rem 0;
+  display: inline-block;
+  background-color: #f7f7fa;
+  color: #5a5a66;
+  font-size: 1.2rem;
+  padding: .3rem .5rem;
+  border-radius: 2rem;
+  margin-right: .5rem;
+}
+.Chapter .head .doc {
+  font-size: 1.2rem;
+  color: #90999e;
+  text-align: justify;
+  margin: .8rem .5rem;
+  margin-right: 1rem;
+}
+.Chapter .list {
+  padding: 0 2rem;
+}
+.Chapter .list .body {
+  width: 100%;
+  height: 5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1rem solid #e6e6e6;
+}
+.Chapter .list .body .name {
+  color: #2a2a33;
+}
+.Chapter .list .body .doc {
+  color: #c6c6cd;
+  font-size: 1.2rem;
+}
+.Chapter .list .body .doc .Unread {
+  font-size: 1.2rem;
+  color: #EB5B5B;
+}
+.Chapter .list .body .doc i {
+  font-size: 1.1rem;
+}

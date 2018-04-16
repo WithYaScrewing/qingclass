@@ -1,0 +1,143 @@
+.Answer {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+.Answer .Question {
+  color: #2eb9ff;
+  text-align: justify;
+}
+.Answer .Question .num span:first-child {
+  font-size: 3.2rem;
+}
+.Answer .Question .num span:last-child {
+  font-size: 1.2rem;
+}
+.Answer .Question .topic {
+  margin-top: 2rem;
+  line-height: 2.5rem;
+}
+.Answer .Options {
+  margin-top: 3rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+.Answer .Options div {
+  margin-bottom: 3rem;
+  padding: 1.5rem 2rem 1.5rem 1rem;
+  border: 0.1rem solid #e6e6e6;
+  border-radius: .2rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #5a5a66;
+}
+.Answer .Options div p {
+  display: none;
+}
+.Answer .Options .true-active,
+.Answer .Options .false-active {
+  position: relative;
+}
+.Answer .Options .true-active p,
+.Answer .Options .false-active p {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  right: 0rem;
+  bottom: 0;
+}
+.Answer .Options .true-active p i,
+.Answer .Options .false-active p i {
+  font-size: 1rem;
+  color: #fff;
+}
+.Answer .Options .true-active {
+  border-color: #42CB5D;
+  background-color: rgba(66, 203, 93, 0.18);
+}
+.Answer .Options .true-active p {
+  background-color: #42CB5D;
+}
+.Answer .Options .false-active {
+  border-color: #EB5B5B;
+  background-color: rgba(235, 91, 91, 0.18);
+}
+.Answer .Options .false-active p {
+  background-color: #EB5B5B;
+}
+.Answer .Answerdoc {
+  height: 100%;
+}
+.Answer .Answerdoc .title {
+  color: #2a2a33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0 .5rem;
+}
+.Answer .Answerdoc .title:before {
+  content: '';
+  display: inline-block;
+  width: 5rem;
+  border-top: 1px solid #c6c6cd;
+}
+.Answer .Answerdoc .title:after {
+  content: '';
+  display: inline-block;
+  width: 5rem;
+  border-top: 1px solid #c6c6cd;
+}
+.Answer .Answerdoc .title i {
+  display: inline-block;
+  width: .3rem;
+  height: .3rem;
+  background-color: #c6c6cd;
+  border-radius: 100%;
+  margin: 0 .2rem;
+}
+.Answer .Answerdoc .doc {
+  text-align: justify;
+  color: #90999e;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.animated {
+  -webkit-animation-duration: .25s;
+  animation-duration: .25s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@keyframes shake {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  20%,
+  60% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+  30%,
+  70% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}

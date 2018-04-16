@@ -1,0 +1,19 @@
+.Handouts {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overflow-scrolling: touch;
+  font-family: Times, Helvetica, Arial, sans-serif !important;
+  -webkit-overflow-scrolling: touch;
+}
+.Handouts .Handouts-content {
+  padding: 1.8rem;
+  text-align: justify;
+  font-size: 1.5rem;
+  color: #5c6468;
+}
+.Handouts .Handouts-content img {
+  width: 100%;
+}

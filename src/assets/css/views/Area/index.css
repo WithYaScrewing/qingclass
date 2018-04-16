@@ -1,0 +1,59 @@
+.Area {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+.Area .Area-content {
+  text-align: left;
+}
+.Area .Area-content .Area-ul .Area-selected {
+  width: 86%;
+  margin: auto;
+}
+.Area .Area-content .Area-ul .Area-selected .Area-blue {
+  color: #2eb9ff;
+  font-size: 1.2rem;
+}
+.Area .Area-content .Area-ul .Area-selected .Area-blue,
+.Area .Area-content .Area-ul .Area-selected ul > li {
+  font-size: 1.8rem;
+  border-bottom: 1px solid #f7f7fa;
+  height: 5rem;
+  line-height: 5rem;
+  padding-right: 1rem;
+}
+.Area .Area-content .Area-ul .Area-selected ul > li {
+  display: flex;
+  justify-content: space-between;
+}
+.Area .Area-content .Area-ul .Area-selected ul > li p:last-child {
+  font-size: 1.5rem;
+  color: #90999e;
+}
+.Area .Area-content .Area-nav {
+  font-size: 1.2rem;
+  width: 2rem;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: .5rem;
+  padding-right: .3rem;
+}
+.Area .Area-content .Area-nav ul li {
+  padding: 0.2rem 0rem;
+  color: #2eb9ff;
+  text-align: center;
+}

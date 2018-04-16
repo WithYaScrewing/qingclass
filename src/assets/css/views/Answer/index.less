@@ -1,0 +1,145 @@
+@import "../../Master/index";
+
+.Answer {
+  height: 100%;
+  .Masterfun();
+  padding: 2rem;
+  box-sizing: border-box;
+  .Question {
+    color: @Mastercolor;
+    text-align: justify;
+    .num {
+      span:first-child {
+        font-size: 3.2rem;
+      }
+      span:last-child {
+        font-size: 1.2rem;
+      }
+    }
+    .topic {
+      margin-top: 2rem;
+      line-height: 2.5rem;
+    }
+  }
+  .Options {
+    margin-top: 3rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+    div {
+      margin-bottom: 3rem;
+      padding: 1.5rem 2rem 1.5rem 1rem;
+      border: .1rem solid @MasterE6;
+      border-radius: .2rem;
+      font-size: @fontSize15;
+      line-height: 2rem;
+      color: @Master5A;
+      //display: none;
+      p {
+        display: none;
+      }
+    }
+    .true-active, .false-active {
+      position: relative;
+      p {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        position: absolute;
+        right: 0rem;
+        bottom: 0;
+        i {
+          font-size: 1rem;
+          color: #fff;
+        }
+      }
+    }
+    .true-active {
+      border-color: @Mastergreen;
+      background-color: @MasterLightgreen;
+      p {
+        background-color: @Mastergreen;
+      }
+    }
+    .false-active {
+      border-color: @Masterred;
+      background-color: @MasterLightred;
+      p {
+        background-color: @Masterred;
+      }
+    }
+  }
+  .Answerdoc {
+    height: 100%;
+    .title {
+      color: @Master2A;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+      padding: 0 .5rem;
+      &:before {
+        content: '';
+        display: inline-block;
+        width: 5rem;
+        border-top: 1px solid @MasterC6;
+      }
+      &:after {
+        content: '';
+        display: inline-block;
+        width: 5rem;
+        border-top: 1px solid @MasterC6;
+      }
+      i {
+        display: inline-block;
+        width: .3rem;
+        height: .3rem;
+        background-color: @MasterC6;
+        border-radius: 100%;
+        margin: 0 .2rem;
+      }
+    }
+    .doc {
+      text-align: justify;
+      color: @Master62;
+      font-size: @fontSize15;
+      line-height: 2.5rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.animated {
+  -webkit-animation-duration: .25s;
+  animation-duration: .25s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes shake {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  20%,
+  60% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  30%,
+  70% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}

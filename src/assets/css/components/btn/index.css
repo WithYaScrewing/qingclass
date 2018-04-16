@@ -1,0 +1,15 @@
+.btn {
+  width: 100%;
+  padding: .3em 0;
+}
+.btn button {
+  width: 90%;
+  height: 4.5rem;
+  box-sizing: border-box;
+  background-color: #2eb9ff;
+  border-color: transparent;
+  color: #fff;
+  border-radius: 6rem;
+  opacity: 1;
+  font-size: 1.8rem;
+}

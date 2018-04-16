@@ -1,0 +1,25 @@
+.SharePopup {
+  position: relative;
+}
+.SharePopup .iconfont {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  font-size: 1.2rem;
+  color: #90999e;
+}
+.SharePopup .title {
+  font-size: 2.4rem;
+  line-height: 5rem;
+  border-bottom: 1px solid #ddd;
+}
+.SharePopup .ctn {
+  padding: 2rem;
+  padding-bottom: 1rem;
+  text-align: justify;
+  font-size: 1.5rem;
+  color: #90999e;
+}
+.SharePopup .btns {
+  margin-bottom: 2rem;
+}

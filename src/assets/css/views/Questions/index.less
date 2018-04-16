@@ -1,0 +1,105 @@
+@import "../../Master/index";
+
+.Questions {
+  .Masterfun();
+  .schedule {
+    width: 100%;
+    height: .6rem;
+    background-color: rgba(46, 185, 255, .3);
+    p {
+      width: 20%;
+      height: .6rem;
+      background-color: @Mastercolor;
+    }
+  }
+  .content {
+    .doc {
+      margin-top: 1rem;
+      font-size: @fontSize12;
+      color: @Master9;
+    }
+    .topic {
+      margin-top: 3rem;
+      font-size: 3.5rem;
+      color: @Mastercolor;
+      font-weight: 600;
+    }
+  }
+  .options {
+    margin-top: 3rem;
+    ul {
+      li {
+        position: relative;
+        margin: auto;
+        box-sizing: border-box;
+        width: 90%;
+        text-align: left;
+        padding: 2rem 2rem;
+        background-color: @MasterFA;
+        margin-bottom: 1.65rem;
+        min-height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border-radius: .4rem;
+        font-size: @fontSize15;
+        color: @Master27;
+        border: .1rem solid transparent;
+        -webkit-animation-duration: .25s;
+        animation-duration: .25s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-backface-visibility: visible !important;
+        backface-visibility: visible !important;
+        -webkit-animation-name: flipInX;
+        animation-name: flipInX;
+        .icon {
+          display: none;
+          i {
+            font-size: 1rem;
+            color: #fff;
+          }
+        }
+      }
+      .active-false {
+        border: .1rem solid @Masterred;
+        background-color: rgba(235, 91, 91, 0.18);
+        .icon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 2rem;
+          height: 2rem;
+          background-color: @Masterred;
+          i:last-child {
+            display: none;
+          }
+          i:first-child {
+            color: #fff;
+          }
+        }
+      }
+      .active-true {
+        border: .1rem solid @Mastergreen;
+        background-color: rgba(66, 203, 93, 0.18);
+        .icon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 2rem;
+          height: 2rem;
+          background-color: @Mastergreen;
+          i:first-child {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

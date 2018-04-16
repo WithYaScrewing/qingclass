@@ -1,0 +1,1326 @@
+[
+  {
+    "name": "常用国家/地区",
+    "list": []
+  },
+  {
+    "name": "A",
+    "list": [
+      {
+        "country_name": "阿尔巴尼亚",
+        "areacode": "355",
+        "country_pinyin": "A"
+      },
+      {
+        "country_name": "安道尔",
+        "areacode": "376",
+        "country_pinyin": "A"
+      },
+      {
+        "country_name": "奥地利",
+        "areacode": "43",
+        "country_pinyin": "A"
+      },
+      {
+        "country_name": "澳大利亚",
+        "areacode": "61",
+        "country_pinyin": "A"
+      },
+      {
+        "country_name": "阿尔及利亚",
+        "areacode": "213",
+        "country_pinyin": "A"
+      },
+      {
+        "country_name": "安哥拉",
+        "areacode": "244",
+        "country_pinyin": "A"
+      },
+      {
+        "country_name": "阿根廷",
+        "areacode": "54",
+        "country_pinyin": "A"
+      },
+      {
+        "country_name": "安提瓜和巴布达",
+        "areacode": "1268",
+        "country_pinyin": "A"
+      },
+      {
+        "country_name": "阿富汗",
+        "areacode": "93",
+        "country_pinyin": "A"
+      },
+      {
+        "country_name": "阿塞拜疆",
+        "areacode": "994",
+        "country_pinyin": "A"
+      },
+      {
+        "country_name": "阿拉斯加",
+        "areacode": "1907",
+        "country_pinyin": "A"
+      },
+      {
+        "country_name": "安圭拉岛(英)",
+        "areacode": "1264",
+        "country_pinyin": "A"
+      },
+      {
+        "country_name": "阿鲁巴岛",
+        "areacode": "297",
+        "country_pinyin": "A"
+      },
+      {
+        "country_name": "阿森松(英)",
+        "areacode": "247",
+        "country_pinyin": "A"
+      }
+    ]
+  },
+  {
+    "name": "B",
+    "list": [
+      {
+        "country_name": "白俄罗斯",
+        "areacode": "375",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "保加利亚",
+        "areacode": "359",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "比利时",
+        "areacode": "32",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "波黑",
+        "areacode": "387",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "贝宁",
+        "areacode": "229",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "博茨瓦纳",
+        "areacode": "267",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "布基纳法索",
+        "areacode": "226",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "布隆迪",
+        "areacode": "257",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "巴巴多斯",
+        "areacode": "1246",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "巴西",
+        "areacode": "55",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "玻利维亚",
+        "areacode": "591",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "伯利兹",
+        "areacode": "501",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "巴林",
+        "areacode": "973",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "不丹",
+        "areacode": "975",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "孟加拉国",
+        "areacode": "880",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "文莱",
+        "areacode": "673",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "百慕大群岛(英)",
+        "areacode": "1441",
+        "country_pinyin": "B"
+      },
+      {
+        "country_name": "波斯尼亚和黑塞哥维那",
+        "areacode": "387",
+        "country_pinyin": "B"
+      }
+    ]
+  },
+  {
+    "name": "C",
+    "list": [
+      {
+        "country_name": "中国",
+        "areacode": "86",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "捷克",
+        "areacode": "420",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "克罗地亚",
+        "areacode": "383",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "库克群岛",
+        "areacode": "682",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "弗得角",
+        "areacode": "238",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "刚果",
+        "areacode": "242",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "喀麦隆",
+        "areacode": "237",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "科摩罗",
+        "areacode": "269",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "乍得",
+        "areacode": "235",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "中非",
+        "areacode": "239",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "巴哈马",
+        "areacode": "1809",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "哥伦比亚",
+        "areacode": "57",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "哥斯达黎加",
+        "areacode": "506",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "古巴",
+        "areacode": "53",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "加拿大",
+        "areacode": "1",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "智利",
+        "areacode": "56",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "塞浦路斯",
+        "areacode": "357",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "加那利群岛",
+        "areacode": "34",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "开曼群岛(英)",
+        "areacode": "1345",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "圣诞岛",
+        "areacode": "619164",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "科科斯岛",
+        "areacode": "619162",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "多米尼克国",
+        "areacode": "1809",
+        "country_pinyin": "C"
+      },
+      {
+        "country_name": "科克群岛(新)",
+        "areacode": "682",
+        "country_pinyin": "C"
+      }
+    ]
+  },
+  {
+    "name": "D",
+    "list": [
+      {
+        "country_name": "丹麦",
+        "areacode": "45",
+        "country_pinyin": "D"
+      },
+      {
+        "country_name": "吉布提",
+        "areacode": "253",
+        "country_pinyin": "D"
+      },
+      {
+        "country_name": "多米尼加",
+        "areacode": "1767",
+        "country_pinyin": "D"
+      },
+      {
+        "country_name": "多米尼加联邦",
+        "areacode": "809",
+        "country_pinyin": "D"
+      },
+      {
+        "country_name": "迪戈加西亚岛",
+        "areacode": "246",
+        "country_pinyin": "D"
+      }
+    ]
+  },
+  {
+    "name": "E",
+    "list": [
+      {
+        "country_name": "爱沙尼亚",
+        "areacode": "372",
+        "country_pinyin": "E"
+      },
+      {
+        "country_name": "埃及",
+        "areacode": "20",
+        "country_pinyin": "E"
+      },
+      {
+        "country_name": "埃塞俄比亚",
+        "areacode": "251",
+        "country_pinyin": "E"
+      },
+      {
+        "country_name": "赤道几内亚",
+        "areacode": "240",
+        "country_pinyin": "E"
+      },
+      {
+        "country_name": "厄立特里亚",
+        "areacode": "291",
+        "country_pinyin": "E"
+      },
+      {
+        "country_name": "厄瓜多尔",
+        "areacode": "593",
+        "country_pinyin": "E"
+      },
+      {
+        "country_name": "萨尔瓦多",
+        "areacode": "503",
+        "country_pinyin": "E"
+      }
+    ]
+  },
+  {
+    "name": "F",
+    "list": [
+      {
+        "country_name": "法国",
+        "areacode": "33",
+        "country_pinyin": "F"
+      },
+      {
+        "country_name": "芬兰",
+        "areacode": "358",
+        "country_pinyin": "F"
+      },
+      {
+        "country_name": "斐济",
+        "areacode": "679",
+        "country_pinyin": "F"
+      },
+      {
+        "country_name": "福克兰群岛",
+        "areacode": "500",
+        "country_pinyin": "F"
+      },
+      {
+        "country_name": "法罗群岛(丹)",
+        "areacode": "298",
+        "country_pinyin": "F"
+      },
+      {
+        "country_name": "法属圭亚那",
+        "areacode": "594",
+        "country_pinyin": "F"
+      },
+      {
+        "country_name": "法属波里尼西亚",
+        "areacode": "689",
+        "country_pinyin": "F"
+      }
+    ]
+  },
+  {
+    "name": "G",
+    "list": [
+      {
+        "country_name": "德国",
+        "areacode": "49",
+        "country_pinyin": "G"
+      },
+      {
+        "country_name": "希腊",
+        "areacode": "30",
+        "country_pinyin": "G"
+      },
+      {
+        "country_name": "冈比亚",
+        "areacode": "220",
+        "country_pinyin": "G"
+      },
+      {
+        "country_name": "几内亚",
+        "areacode": "224",
+        "country_pinyin": "G"
+      },
+      {
+        "country_name": "几内亚比绍",
+        "areacode": "245",
+        "country_pinyin": "G"
+      },
+      {
+        "country_name": "加纳",
+        "areacode": "233",
+        "country_pinyin": "G"
+      },
+      {
+        "country_name": "加蓬",
+        "areacode": "241",
+        "country_pinyin": "G"
+      },
+      {
+        "country_name": "格林纳达",
+        "areacode": "1809",
+        "country_pinyin": "G"
+      },
+      {
+        "country_name": "圭亚那",
+        "areacode": "592",
+        "country_pinyin": "G"
+      },
+      {
+        "country_name": "危地马拉",
+        "areacode": "502",
+        "country_pinyin": "G"
+      },
+      {
+        "country_name": "格鲁吉亚",
+        "areacode": "995",
+        "country_pinyin": "G"
+      },
+      {
+        "country_name": "直布罗陀(英)",
+        "areacode": "350",
+        "country_pinyin": "G"
+      },
+      {
+        "country_name": "格陵兰岛",
+        "areacode": "299",
+        "country_pinyin": "G"
+      },
+      {
+        "country_name": "瓜德罗普岛(法)",
+        "areacode": "590",
+        "country_pinyin": "G"
+      },
+      {
+        "country_name": "关岛(美)",
+        "areacode": "671",
+        "country_pinyin": "G"
+      }
+    ]
+  },
+  {
+    "name": "H",
+    "list": [
+      {
+        "country_name": "匈牙利",
+        "areacode": "36",
+        "country_pinyin": "H"
+      },
+      {
+        "country_name": "海地",
+        "areacode": "509",
+        "country_pinyin": "H"
+      },
+      {
+        "country_name": "洪都拉斯",
+        "areacode": "504",
+        "country_pinyin": "H"
+      },
+      {
+        "country_name": "夏威夷",
+        "areacode": "1808",
+        "country_pinyin": "H"
+      }
+    ]
+  },
+  {
+    "name": "I",
+    "list": [
+      {
+        "country_name": "爱尔啦",
+        "areacode": "353",
+        "country_pinyin": "I"
+      },
+      {
+        "country_name": "冰岛",
+        "areacode": "354",
+        "country_pinyin": "I"
+      },
+      {
+        "country_name": "意大利",
+        "areacode": "39",
+        "country_pinyin": "I"
+      },
+      {
+        "country_name": "科特迪瓦",
+        "areacode": "225",
+        "country_pinyin": "I"
+      },
+      {
+        "country_name": "伊拉克",
+        "areacode": "964",
+        "country_pinyin": "I"
+      },
+      {
+        "country_name": "伊朗",
+        "areacode": "98",
+        "country_pinyin": "I"
+      },
+      {
+        "country_name": "以色列",
+        "areacode": "972",
+        "country_pinyin": "I"
+      },
+      {
+        "country_name": "印度",
+        "areacode": "91",
+        "country_pinyin": "I"
+      },
+      {
+        "country_name": "印度尼西亚",
+        "areacode": "62",
+        "country_pinyin": "I"
+      }
+    ]
+  },
+  {
+    "name": "J",
+    "list": [
+      {
+        "country_name": "牙买加",
+        "areacode": "1876",
+        "country_pinyin": "J"
+      },
+      {
+        "country_name": "日本",
+        "areacode": "81",
+        "country_pinyin": "J"
+      },
+      {
+        "country_name": "约旦",
+        "areacode": "962",
+        "country_pinyin": "J"
+      }
+    ]
+  },
+  {
+    "name": "K",
+    "list": [
+      {
+        "country_name": "基里巴斯",
+        "areacode": "686",
+        "country_pinyin": "K"
+      },
+      {
+        "country_name": "肯尼亚",
+        "areacode": "254",
+        "country_pinyin": "K"
+      },
+      {
+        "country_name": "朝鲜",
+        "areacode": "85",
+        "country_pinyin": "K"
+      },
+      {
+        "country_name": "哈萨克斯坦",
+        "areacode": "7",
+        "country_pinyin": "K"
+      },
+      {
+        "country_name": "韩国",
+        "areacode": "82",
+        "country_pinyin": "K"
+      },
+      {
+        "country_name": "吉尔吉斯斯坦",
+        "areacode": "996",
+        "country_pinyin": "K"
+      },
+      {
+        "country_name": "柬埔寨",
+        "areacode": "855",
+        "country_pinyin": "K"
+      },
+      {
+        "country_name": "科威特",
+        "areacode": "965",
+        "country_pinyin": "K"
+      }
+    ]
+  },
+  {
+    "name": "L",
+    "list": [
+      {
+        "country_name": "拉托维亚",
+        "areacode": "371",
+        "country_pinyin": "L"
+      },
+      {
+        "country_name": "立陶宛",
+        "areacode": "370",
+        "country_pinyin": "L"
+      },
+      {
+        "country_name": "列支敦士登",
+        "areacode": "41",
+        "country_pinyin": "L"
+      },
+      {
+        "country_name": "卢森堡",
+        "areacode": "352",
+        "country_pinyin": "L"
+      },
+      {
+        "country_name": "莱索托",
+        "areacode": "266",
+        "country_pinyin": "L"
+      },
+      {
+        "country_name": "利比里亚",
+        "areacode": "231",
+        "country_pinyin": "L"
+      },
+      {
+        "country_name": "利比亚",
+        "areacode": "218",
+        "country_pinyin": "L"
+      },
+      {
+        "country_name": "老挝",
+        "areacode": "965",
+        "country_pinyin": "L"
+      },
+      {
+        "country_name": "黎巴嫩",
+        "areacode": "961",
+        "country_pinyin": "L"
+      }
+    ]
+  },
+  {
+    "name": "M",
+    "list": [
+      {
+        "country_name": "澳门",
+        "areacode": "853",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "马耳他",
+        "areacode": "356",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "马其顿",
+        "areacode": "389",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "摩尔多瓦",
+        "areacode": "373",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "摩纳哥",
+        "areacode": "377",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "马绍尔群岛",
+        "areacode": "692",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "密克罗尼西亚",
+        "areacode": "691",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "马达加斯加",
+        "areacode": "261",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "马拉维",
+        "areacode": "265",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "马里",
+        "areacode": "223",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "毛里求斯",
+        "areacode": "230",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "毛里塔尼亚",
+        "areacode": "266",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "摩洛哥",
+        "areacode": "212",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "莫桑比克",
+        "areacode": "258",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "墨西哥",
+        "areacode": "52",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "马尔代夫",
+        "areacode": "960",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "马来西亚",
+        "areacode": "60",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "蒙古",
+        "areacode": "976",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "缅甸",
+        "areacode": "95",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "马里亚纳群岛",
+        "areacode": "670",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "马提尼克(法)",
+        "areacode": "596",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "马约特岛",
+        "areacode": "269",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "密克罗尼西亚(美)",
+        "areacode": "691",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "中途岛(美)",
+        "areacode": "1808",
+        "country_pinyin": "M"
+      },
+      {
+        "country_name": "蒙特塞拉特岛(英)",
+        "areacode": "1664",
+        "country_pinyin": "M"
+      }
+    ]
+  },
+  {
+    "name": "N",
+    "list": [
+      {
+        "country_name": "荷兰",
+        "areacode": "31",
+        "country_pinyin": "N"
+      },
+      {
+        "country_name": "挪威",
+        "areacode": "47",
+        "country_pinyin": "N"
+      },
+      {
+        "country_name": "瑙鲁",
+        "areacode": "674",
+        "country_pinyin": "N"
+      },
+      {
+        "country_name": "新西兰",
+        "areacode": "64",
+        "country_pinyin": "N"
+      },
+      {
+        "country_name": "纳米比亚",
+        "areacode": "264",
+        "country_pinyin": "N"
+      },
+      {
+        "country_name": "尼日尔",
+        "areacode": "227",
+        "country_pinyin": "N"
+      },
+      {
+        "country_name": "尼日利亚",
+        "areacode": "234",
+        "country_pinyin": "N"
+      },
+      {
+        "country_name": "尼加拉瓜",
+        "areacode": "505",
+        "country_pinyin": "N"
+      },
+      {
+        "country_name": "尼泊尔",
+        "areacode": "977",
+        "country_pinyin": "N"
+      },
+      {
+        "country_name": "荷属安的列斯群岛",
+        "areacode": "599",
+        "country_pinyin": "N"
+      },
+      {
+        "country_name": "新喀里多尼亚群岛(法)",
+        "areacode": "687",
+        "country_pinyin": "N"
+      },
+      {
+        "country_name": "纽埃岛(新)",
+        "areacode": "683",
+        "country_pinyin": "N"
+      },
+      {
+        "country_name": "诺福克岛(澳)",
+        "areacode": "6723",
+        "country_pinyin": "N"
+      }
+    ]
+  },
+  {
+    "name": "O",
+    "list": [
+      {
+        "country_name": "阿曼",
+        "areacode": "968",
+        "country_pinyin": "O"
+      }
+    ]
+  },
+  {
+    "name": "P",
+    "list": [
+      {
+        "country_name": "波兰",
+        "areacode": "48",
+        "country_pinyin": "P"
+      },
+      {
+        "country_name": "葡萄牙",
+        "areacode": "351",
+        "country_pinyin": "P"
+      },
+      {
+        "country_name": "巴布亚新几内亚",
+        "areacode": "675",
+        "country_pinyin": "P"
+      },
+      {
+        "country_name": "帕劳",
+        "areacode": "680",
+        "country_pinyin": "P"
+      },
+      {
+        "country_name": "巴拉圭",
+        "areacode": "595",
+        "country_pinyin": "P"
+      },
+      {
+        "country_name": "巴拿马",
+        "areacode": "507",
+        "country_pinyin": "P"
+      },
+      {
+        "country_name": "秘鲁",
+        "areacode": "51",
+        "country_pinyin": "P"
+      },
+      {
+        "country_name": "巴基斯坦",
+        "areacode": "92",
+        "country_pinyin": "P"
+      },
+      {
+        "country_name": "巴勒斯坦",
+        "areacode": "930",
+        "country_pinyin": "P"
+      },
+      {
+        "country_name": "菲律宾",
+        "areacode": "63",
+        "country_pinyin": "P"
+      },
+      {
+        "country_name": "帕劳(美)",
+        "areacode": "680",
+        "country_pinyin": "P"
+      },
+      {
+        "country_name": "波多黎各(美)",
+        "areacode": "1787",
+        "country_pinyin": "P"
+      }
+    ]
+  },
+  {
+    "name": "Q",
+    "list": [
+      {
+        "country_name": "卡塔尔",
+        "areacode": "974",
+        "country_pinyin": "Q"
+      }
+    ]
+  },
+  {
+    "name": "R",
+    "list": [
+      {
+        "country_name": "俄罗斯",
+        "areacode": "7",
+        "country_pinyin": "R"
+      },
+      {
+        "country_name": "罗马尼亚",
+        "areacode": "40",
+        "country_pinyin": "R"
+      },
+      {
+        "country_name": "卢旺达",
+        "areacode": "250",
+        "country_pinyin": "R"
+      },
+      {
+        "country_name": "留尼汪岛",
+        "areacode": "262",
+        "country_pinyin": "R"
+      }
+    ]
+  },
+  {
+    "name": "S",
+    "list": [
+      {
+        "country_name": "塞尔维亚",
+        "areacode": "381",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "瑞典",
+        "areacode": "46",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "瑞士",
+        "areacode": "41",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "圣马力诺",
+        "areacode": "378",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "斯洛伐克",
+        "areacode": "421",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "斯洛文尼亚",
+        "areacode": "386",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "西班牙",
+        "areacode": "34",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "萨摩亚",
+        "areacode": "685",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "所罗门群岛",
+        "areacode": "677",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "南非",
+        "areacode": "27",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "塞拉利昂",
+        "areacode": "232",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "塞内加尔",
+        "areacode": "221",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "塞舌尔",
+        "areacode": "248",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "圣多美和普林西比",
+        "areacode": "239",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "斯威士兰",
+        "areacode": "268",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "苏丹",
+        "areacode": "249",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "索马里",
+        "areacode": "252",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "圣基茨和尼维斯",
+        "areacode": "1809",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "圣卢西亚",
+        "areacode": "1758",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "圣文森特和格林纳丁斯",
+        "areacode": "1784",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "苏里南",
+        "areacode": "597",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "沙特阿拉伯",
+        "areacode": "966",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "斯里兰卡",
+        "areacode": "94",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "新加坡",
+        "areacode": "65",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "叙利亚",
+        "areacode": "963",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "东萨摩亚(美)",
+        "areacode": "684",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "西萨摩亚",
+        "areacode": "685",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "圣皮埃尔岛及密克隆岛",
+        "areacode": "508",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "圣克里斯托弗和尼维斯",
+        "areacode": "1809",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "圣赫勒拿",
+        "areacode": "290",
+        "country_pinyin": "S"
+      },
+      {
+        "country_name": "圣文森特岛(英)",
+        "areacode": "1784",
+        "country_pinyin": "S"
+      }
+    ]
+  },
+  {
+    "name": "T",
+    "list": [
+      {
+        "country_name": "汤加",
+        "areacode": "676",
+        "country_pinyin": "T"
+      },
+      {
+        "country_name": "图瓦卢",
+        "areacode": "688",
+        "country_pinyin": "T"
+      },
+      {
+        "country_name": "多哥",
+        "areacode": "228",
+        "country_pinyin": "T"
+      },
+      {
+        "country_name": "刚果民主",
+        "areacode": "243",
+        "country_pinyin": "T"
+      },
+      {
+        "country_name": "坦桑尼亚",
+        "areacode": "255",
+        "country_pinyin": "T"
+      },
+      {
+        "country_name": "突尼斯",
+        "areacode": "216",
+        "country_pinyin": "T"
+      },
+      {
+        "country_name": "特立尼达和多巴哥",
+        "areacode": "1809",
+        "country_pinyin": "T"
+      },
+      {
+        "country_name": "阿拉伯联合酋长国",
+        "areacode": "971",
+        "country_pinyin": "T"
+      },
+      {
+        "country_name": "东帝汶",
+        "areacode": "670",
+        "country_pinyin": "T"
+      },
+      {
+        "country_name": "塔吉克斯塔",
+        "areacode": "992",
+        "country_pinyin": "T"
+      },
+      {
+        "country_name": "泰国",
+        "areacode": "66",
+        "country_pinyin": "T"
+      },
+      {
+        "country_name": "土耳其",
+        "areacode": "90",
+        "country_pinyin": "T"
+      },
+      {
+        "country_name": "土库曼斯坦",
+        "areacode": "993",
+        "country_pinyin": "T"
+      },
+      {
+        "country_name": "托克劳群岛(新)",
+        "areacode": "690",
+        "country_pinyin": "T"
+      },
+      {
+        "country_name": "特克斯和凯科斯群岛",
+        "areacode": "1809",
+        "country_pinyin": "T"
+      }
+    ]
+  },
+  {
+    "name": "U",
+    "list": [
+      {
+        "country_name": "乌克兰",
+        "areacode": "380",
+        "country_pinyin": "U"
+      },
+      {
+        "country_name": "英国",
+        "areacode": "44",
+        "country_pinyin": "U"
+      },
+      {
+        "country_name": "乌干达",
+        "areacode": "256",
+        "country_pinyin": "U"
+      },
+      {
+        "country_name": "乌拉圭",
+        "areacode": "598",
+        "country_pinyin": "U"
+      },
+      {
+        "country_name": "乌兹别克斯坦",
+        "areacode": "998",
+        "country_pinyin": "U"
+      }
+    ]
+  },
+  {
+    "name": "V",
+    "list": [
+      {
+        "country_name": "梵蒂冈",
+        "areacode": "379",
+        "country_pinyin": "V"
+      },
+      {
+        "country_name": "瓦努阿图",
+        "areacode": "678",
+        "country_pinyin": "V"
+      },
+      {
+        "country_name": "委内瑞拉",
+        "areacode": "58",
+        "country_pinyin": "V"
+      },
+      {
+        "country_name": "越南",
+        "areacode": "84",
+        "country_pinyin": "V"
+      },
+      {
+        "country_name": "维尔京群岛(英)",
+        "areacode": "1809",
+        "country_pinyin": "V"
+      },
+      {
+        "country_name": "维尔京群岛和圣罗克伊",
+        "areacode": "1809",
+        "country_pinyin": "V"
+      }
+    ]
+  },
+  {
+    "name": "W",
+    "list": [
+      {
+        "country_name": "西撒哈拉",
+        "areacode": "967",
+        "country_pinyin": "W"
+      },
+      {
+        "country_name": "威克岛(美)",
+        "areacode": "1808",
+        "country_pinyin": "W"
+      },
+      {
+        "country_name": "瓦里斯和富士那群岛",
+        "areacode": "681",
+        "country_pinyin": "W"
+      }
+    ]
+  },
+  {
+    "name": "Y",
+    "list": [
+      {
+        "country_name": "也门",
+        "areacode": "967",
+        "country_pinyin": "Y"
+      },
+      {
+        "country_name": "南斯拉夫",
+        "areacode": "381",
+        "country_pinyin": "Y"
+      }
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+@import "../../Master/index";
+
+.Chapter {
+  .Masterfun();
+  padding-bottom: 2rem;
+  .head {
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 95%;
+    .Masteshow();
+    margin: 1rem auto;
+    .body {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .img {
+        width: 35%;
+        img {
+          width: 90%;
+        }
+      }
+      .text {
+        width: 65%;
+        margin-left: 1rem;
+        text-align: left;
+        .name {
+          font-size: @fontSize18;
+          color: @Master3;
+        }
+        .span {
+          span {
+            margin: .5rem 0;
+            display: inline-block;
+            background-color: @MasterF7;
+            color: @Master5A;
+            font-size: @fontSize12;
+            padding: .3rem .5rem;
+            border-radius: 2rem;
+            margin-right: .5rem;
+          }
+        }
+      }
+    }
+    .doc {
+      font-size: @fontSize12;
+      color: @Master62;
+      text-align: justify;
+      margin: .8rem .5rem;
+      margin-right: 1rem;
+    }
+  }
+  .list {
+    padding: 0 2rem;
+    .body {
+      width: 100%;
+      height: 5rem;
+      font-size: @fontSize15;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: .1rem solid @MasterE6;
+      .name {
+        color: @Master2A;
+      }
+      .doc {
+        color: @MasterC6;
+        font-size: @fontSize12;
+        .Unread{
+          font-size: @fontSize12;
+          color: @Masterred;
+        }
+        i {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+@import "../../Master/index";
+
+.BooksList {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  .body {
+    width: 90%;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #fff;
+    box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.06);
+    .img {
+      width: 25%;
+      img {
+        width: 100%;
+      }
+    }
+    .text {
+      width: 75%;
+      margin-top: 1rem;
+      box-sizing: border-box;
+      margin-left: 1rem;
+      font-size: @fontSize12;
+      .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .name {
+          font-size: @fontSize15;
+          color: @Master2A;
+          width: 70%;
+          text-align: left;
+        }
+        .btn {
+          width: 40%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          color: @MasterOrange;
+          i {
+            font-size: 1.1rem;
+            position: relative;
+            top: .1rem;
+          }
+          .already {
+            color: @MasterC6;
+            i{
+              position: relative;
+              top: 0rem;
+            }
+          }
+        }
+      }
+      .popup-text {
+        font-size: @fontSize1;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        span {
+          margin: .5rem 0;
+          display: inline-block;
+          background-color: @MasterF7;
+          color: @Master5A;
+          font-size: @fontSize1;
+          padding: .3rem .7rem;
+          border-radius: 2rem;
+        }
+        span:last-child {
+          margin-left: .5rem;
+        }
+      }
+      .doc {
+        text-align: left;
+        color: @Master62;
+      }
+    }
+  }
+}

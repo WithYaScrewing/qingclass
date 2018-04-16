@@ -1,0 +1,24 @@
+.Collection {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  background-color: #fff;
+}
+.Collection .title {
+  padding: .5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+}
+.Collection .title div {
+  font-size: 1.2rem;
+  color: #90999e;
+}
+.Collection .title div i {
+  font-size: 1.2rem;
+}

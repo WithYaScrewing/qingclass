@@ -1,0 +1,267 @@
+.Reading .Calendar {
+  background-color: #fff;
+  padding-bottom: 1rem;
+}
+.Reading .Calendar .head {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Reading .Calendar .head .left .icon-rili,
+.Reading .Calendar .head .right .icon-rili {
+  display: inline-block;
+  transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+}
+.Reading .Calendar .head .left .iconfont,
+.Reading .Calendar .head .right .iconfont {
+  color: #ccc;
+}
+.Reading .Calendar .title,
+.Reading .Calendar .body {
+  width: 100%;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+.Reading .Calendar .title ul,
+.Reading .Calendar .body ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Reading .Calendar .title ul li,
+.Reading .Calendar .body ul li {
+  font-size: 1.5rem;
+  color: #5a5a66;
+  width: 14.28%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.Reading .Calendar .title ul li .other-month,
+.Reading .Calendar .body ul li .other-month {
+  color: #fff;
+}
+.Reading .Calendar .title ul li .class-c,
+.Reading .Calendar .body ul li .class-c,
+.Reading .Calendar .title ul li .class-d,
+.Reading .Calendar .body ul li .class-d,
+.Reading .Calendar .title ul li .active,
+.Reading .Calendar .body ul li .active {
+  font-size: 1.2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #C2C9CC;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 20;
+  /*box-shadow: 0 0 .6rem #f0f0f0;*/
+}
+.Reading .Calendar .title ul li .class-b,
+.Reading .Calendar .body ul li .class-b,
+.Reading .Calendar .title ul li .class-a,
+.Reading .Calendar .body ul li .class-a {
+  font-size: 1.2rem;
+  background-color: #42CB5D;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 20;
+  /*box-shadow: 0 0 .6rem #f0f0f0;*/
+}
+.Reading .Calendar .title ul li .class-a,
+.Reading .Calendar .body ul li .class-a {
+  background-color: #C2C9CC;
+}
+.Reading .Calendar .title ul li .active,
+.Reading .Calendar .body ul li .active {
+  width: 2.4rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  background-color: #2eb9ff;
+}
+.Reading .Calendar .title ul li .active::after,
+.Reading .Calendar .body ul li .active::after {
+  font-size: 1.2rem;
+  content: '';
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: -0.25rem;
+  top: -0.25rem;
+  background-color: rgba(46, 185, 255, 0.12);
+  border-radius: 50%;
+}
+.Reading .Calendar .title ul li .class-c,
+.Reading .Calendar .body ul li .class-c {
+  background-size: 100%;
+}
+.Reading .Calendar .title ul li .class-d,
+.Reading .Calendar .body ul li .class-d {
+  background-size: 100%;
+  padding: .2rem;
+}
+.Reading .Calendar .title ul li .class-e,
+.Reading .Calendar .body ul li .class-e {
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  background-color: #F78E1B;
+}
+.Reading .Calendar .title ul li .class-a::after,
+.Reading .Calendar .body ul li .class-a::after,
+.Reading .Calendar .title ul li .class-d::after,
+.Reading .Calendar .body ul li .class-d::after,
+.Reading .Calendar .title ul li .class-e::after,
+.Reading .Calendar .body ul li .class-e::after,
+.Reading .Calendar .title ul li .class-c::after,
+.Reading .Calendar .body ul li .class-c::after {
+  font-size: 1.2rem;
+  content: '';
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: -0.25rem;
+  top: -0.25rem;
+  background-color: rgba(194, 201, 204, 0.12);
+  border-radius: 50%;
+}
+.Reading .Calendar .title ul li .class-e::after,
+.Reading .Calendar .body ul li .class-e::after {
+  background-color: rgba(247, 142, 27, 0.12);
+}
+.Reading .Calendar .title ul li .class-b::after,
+.Reading .Calendar .body ul li .class-b::after {
+  content: '';
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: -0.25rem;
+  top: -0.25rem;
+  background-color: rgba(66, 203, 93, 0.12);
+  border-radius: 50%;
+}
+.Reading .Calendar .body {
+  min-height: 10rem;
+}
+.Reading .Calendar .body ul li {
+  height: 5rem;
+}
+.Reading .Calendar .body ul li .content {
+  display: inline-flex;
+  flex-direction: column;
+}
+.Reading .Calendar .body ul li .content .icon {
+  display: inline-block;
+  margin-top: -0.3rem;
+}
+.Reading .Calendar .body ul li .content .icon i {
+  font-size: 1rem;
+  color: #42CB5D;
+  margin-top: -0.5rem;
+}
+.Reading .Calendar .title {
+  margin-top: -1.5rem;
+}
+.Reading .Calendar .footr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+.Reading .Calendar .footr div {
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+}
+.Reading .Calendar .footr div span {
+  width: 1rem;
+  height: 1rem;
+  line-height: 3rem;
+  border-radius: 100%;
+  margin-right: .5rem;
+  background-color: #2eb9ff;
+}
+.Reading .Calendar .footr .Learn {
+  background-color: #FF8800;
+  position: relative;
+  z-index: 15;
+}
+.Reading .Calendar .footr .Learn::before {
+  content: '';
+  display: inline-block;
+  width: 1.3rem;
+  height: 1.3rem;
+  position: absolute;
+  left: -0.12rem;
+  top: -0.12rem;
+  z-index: 10;
+  background-color: rgba(255, 136, 0, 0.12);
+  border-radius: 50%;
+}
+.Reading .Calendar .footr .not {
+  background-color: #C2C9CC;
+  position: relative;
+  z-index: 15;
+}
+.Reading .Calendar .footr .not::before {
+  content: '';
+  display: inline-block;
+  width: 1.3rem;
+  height: 1.3rem;
+  position: absolute;
+  left: -0.12rem;
+  top: -0.12rem;
+  z-index: 10;
+  background-color: rgba(194, 201, 204, 0.12);
+  border-radius: 50%;
+}
+.Reading .Calendar .footr .ids {
+  background-color: #42CB5D;
+  background-size: 100%;
+  position: relative;
+  z-index: 15;
+}
+.Reading .Calendar .footr .ids::before {
+  content: '';
+  display: inline-block;
+  width: 1.3rem;
+  height: 1.3rem;
+  position: absolute;
+  left: -0.12rem;
+  top: -0.12rem;
+  z-index: 10;
+  background-color: rgba(194, 201, 204, 0.12);
+  border-radius: 50%;
+}
+.Reading .Calendar .footr .daqia i {
+  color: #42CB5D;
+  font-size: 1rem;
+}

@@ -1,0 +1,79 @@
+.Binding {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  background-color: #fafafa;
+}
+.Binding .header {
+  background-color: #fff;
+  padding: 2.4rem;
+  font-size: 1.2rem;
+  text-align: justify;
+  color: #90999e;
+}
+.Binding .bodyer {
+  margin-top: 1rem;
+  height: 84%;
+  background-color: #fff;
+}
+.Binding .bodyer .content {
+  padding: 3rem 4rem;
+}
+.Binding .bodyer .content .area,
+.Binding .bodyer .content .phone,
+.Binding .bodyer .content .Code,
+.Binding .bodyer .content .btns {
+  width: 100%;
+  margin-top: 3rem;
+}
+.Binding .bodyer .content .area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 1px solid #f2f2f2;
+  color: #2a2a33;
+}
+.Binding .bodyer .content .phone input[type=tel] {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #f2f2f2;
+  color: #c6c6cd;
+  padding-left: .5rem;
+}
+.Binding .bodyer .content .phone input[type=tel]:focus {
+  color: #2a2a33;
+}
+.Binding .bodyer .content .Code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Binding .bodyer .content .Code input[type=tel] {
+  width: 60%;
+  height: 4rem;
+  line-height: 4rem;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #f2f2f2;
+  color: #c6c6cd;
+  padding-left: .5rem;
+}
+.Binding .bodyer .content .Code input[type=tel]:focus {
+  color: #2a2a33;
+}
+.Binding .bodyer .content .Code .btn {
+  width: 40%;
+}

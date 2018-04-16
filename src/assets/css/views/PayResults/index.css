@@ -1,0 +1,57 @@
+.PayResults {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+.PayResults .header {
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  position: relative;
+  background-color: #2eb9ff;
+}
+.PayResults .header .bg {
+  position: absolute;
+}
+.PayResults .header .bg img {
+  width: 80%;
+  margin: auto;
+}
+.PayResults .header .text {
+  color: #fff;
+}
+.PayResults .header .text .icon {
+  margin-bottom: .8rem;
+}
+.PayResults .header .text .icon i {
+  font-size: 5.90rem;
+}
+.PayResults .header .text .title {
+  font-size: 1.8rem;
+  margin-bottom: .8rem;
+}
+.PayResults .header .text .doc {
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+.PayResults .bodyer {
+  width: 80%;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 2rem;
+  position: relative;
+  top: -3rem;
+  border-radius: .5rem;
+  box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.08);
+}
+.PayResults .bodyer img {
+  width: 100%;
+}
+.PayResults .bodyer .btns {
+  margin-top: 2rem;
+}

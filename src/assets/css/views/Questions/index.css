@@ -1,0 +1,105 @@
+.Questions {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+.Questions .schedule {
+  width: 100%;
+  height: .6rem;
+  background-color: rgba(46, 185, 255, 0.3);
+}
+.Questions .schedule p {
+  width: 20%;
+  height: .6rem;
+  background-color: #2eb9ff;
+}
+.Questions .content .doc {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #999;
+}
+.Questions .content .topic {
+  margin-top: 3rem;
+  font-size: 3.5rem;
+  color: #2eb9ff;
+  font-weight: 600;
+}
+.Questions .options {
+  margin-top: 3rem;
+}
+.Questions .options ul li {
+  position: relative;
+  margin: auto;
+  box-sizing: border-box;
+  width: 90%;
+  text-align: left;
+  padding: 2rem 2rem;
+  background-color: #fafafa;
+  margin-bottom: 1.65rem;
+  min-height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: .4rem;
+  font-size: 1.5rem;
+  color: #353f45;
+  border: .1rem solid transparent;
+  -webkit-animation-duration: .25s;
+  animation-duration: .25s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+}
+.Questions .options ul li .icon {
+  display: none;
+}
+.Questions .options ul li .icon i {
+  font-size: 1rem;
+  color: #fff;
+}
+.Questions .options ul .active-false {
+  border: 0.1rem solid #EB5B5B;
+  background-color: rgba(235, 91, 91, 0.18);
+}
+.Questions .options ul .active-false .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 2rem;
+  height: 2rem;
+  background-color: #EB5B5B;
+}
+.Questions .options ul .active-false .icon i:last-child {
+  display: none;
+}
+.Questions .options ul .active-false .icon i:first-child {
+  color: #fff;
+}
+.Questions .options ul .active-true {
+  border: 0.1rem solid #42CB5D;
+  background-color: rgba(66, 203, 93, 0.18);
+}
+.Questions .options ul .active-true .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 2rem;
+  height: 2rem;
+  background-color: #42CB5D;
+}
+.Questions .options ul .active-true .icon i:first-child {
+  display: none;
+}

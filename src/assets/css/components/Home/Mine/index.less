@@ -1,0 +1,160 @@
+@import "../../../Master/index";
+
+.Mine {
+  min-height: 100%;
+  .Masterfun();
+  .mine {
+    width: 100%;
+    font-size: 1.7rem;
+    margin-bottom: 7rem;
+    .mine-head {
+      width: 100%;
+      background-color: #ddd;
+      background-image: linear-gradient(to bottom, #55c6ff, #19a6ed);
+      color: #fff;
+      position: relative;
+      .bg-1 {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .img {
+        padding-top: 1.6rem;
+        img {
+          width: 6rem;
+          min-height: 6rem;
+          border-radius: 100%;
+          background: url('../../../../img/BookShelf/zhang1.png') no-repeat;
+          background-size: 100%;
+          border: .2rem solid #fff;
+        }
+      }
+      .name {
+        font-size: 1.8rem;
+      }
+      .state {
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        align-items: center;
+        div {
+          width: 33.33%;
+          font-size: 1.5rem;
+          p {
+          }
+          p:first-child {
+            font-size: 1.2rem;
+            color: #fff;
+            margin-bottom: .5rem;
+          }
+          p:last-child {
+            font-size: 2rem;
+            color: #fff;
+          }
+        }
+        div:nth-child(2) {
+          border-left: .1rem solid rgba(255, 255, 255, .3);
+          border-right: .1rem solid rgba(255, 255, 255, .3);
+        }
+      }
+    }
+    .mine-content {
+      width: 100%;
+      ul {
+        width: 100%;
+        padding-bottom: 1rem;
+        li {
+          width: 95%;
+          margin: 1rem auto;
+          height: 4rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-radius: .4rem;
+          box-shadow: 0 .2rem 1.5rem 0 rgba(0, 0, 0, 0.04);
+          div:first-child {
+            margin-left: 2rem;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+              width: 1.8rem;
+              margin-right: .5rem;
+            }
+            span {
+              position: relative;
+              i {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: .5rem;
+                height: .5rem;
+                border-radius: 100%;
+                background-color: #fa5a5a;
+              }
+            }
+          }
+          div:last-child {
+            margin-right: 1.5rem;
+            i {
+              font-size: 1rem;
+              color: #c2c9cc;
+            }
+          }
+        }
+      }
+    }
+    .mine-newcontent {
+      background-color: @MasterFA;
+      .mine-newcontent-ul {
+        background-color: #fff;
+        padding: 0 2rem;
+        margin-bottom: .8rem;
+        .mine-newcontent-li {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: .03rem solid #e6e6e6;
+          padding: 1.5rem 0;
+          div:first-child {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            img {
+              width: 1.8rem;
+              margin-right: .5rem;
+            }
+            span {
+              position: relative;
+              i {
+                position: absolute;
+                top: -0.1rem;
+                right: -0.5rem;
+                width: .5rem;
+                height: .5rem;
+                border-radius: 100%;
+                background-color: #fa5a5a;
+              }
+            }
+          }
+          div:last-child {
+            i {
+              font-size: 1rem;
+              color: #c2c9cc;
+            }
+          }
+        }
+        li:last-child {
+          border-bottom-width: 0;
+        }
+      }
+    }
+  }
+}
+
